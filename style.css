@@ -741,6 +741,9 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     font-family: 'Conv_FuturaStd-Book';
     margin-top: 0px;
 }
+.edit .bck-title-7 {
+  left: 0px;
+}
 
 /*Título Communication 8 - Titulo Quiz*/
 .bck-title-8 {
@@ -757,6 +760,9 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     left: -97px;
     font-weight: 700;
     font-family: 'Conv_FuturaStd-Book';
+}
+.edit .bck-title-8 {
+  left: 0px;
 }
 
 /*Título 4 Naranja*/
@@ -776,6 +782,10 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     font-family: 'Conv_FuturaStd-Book';
     margin-top: 0px;
 }
+.bck-title-4 {
+  left: 0px;
+}
+
 
 /*TÃ­tulo Project*/
 .bck-title-5 {
