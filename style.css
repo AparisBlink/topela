@@ -99,7 +99,7 @@ body {
 	
 }
 
-/*#actividad .content .header .chapter{
+#actividad .content .header .chapter{
 	    display: none;
 }
 
@@ -114,7 +114,7 @@ body {
 
 #actividad .content .header {
 	border-bottom: none;
-}*/
+}
 
 
 
