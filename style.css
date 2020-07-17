@@ -99,6 +99,8 @@ body {
 	
 }
 
+/*Display none para el header excepto en modo edición*/
+
 #actividad .content .header .chapter{
 	    display: none;
 }
@@ -114,6 +116,10 @@ body {
 
 #actividad .content .header {
 	border-bottom: none;
+}
+
+.edit #actividad .content .header {
+	display: inherit;
 }
 
 
