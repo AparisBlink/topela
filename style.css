@@ -1209,16 +1209,21 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     margin-top: 15px;
     border: none;
     background: transparent;
-    -webkit-box-shadow: 10px 20px 10px 10px #878787;
+    -webkit-box-shadow: 0px -12px 40px 4px #dcdcdc;
+    -moz-box-shadow: 0px -12px 40px 4px #dcdcdc;
     box-shadow: 0px -12px 40px 4px #dcdcdc;
     border: 2px solid #ffffff;
+    -webkit-border-radius: 89px 475px 203px 355px/156px 72px 209px 133px;
+    -moz-border-radius: 89px 475px 203px 355px/156px 72px 209px 133px;
     border-radius: 89px 475px 203px 355px/156px 72px 209px 133px;
     background: #ffffff;
     padding: 10px;
     width: fit-content;
+    width: -moz-fit-content;
     position: relative;
-    right: -207px;
-}
+    margin-left: auto;
+    margin-right: 0;
+  }
 
 .bck-box.bck-box-2 .bck-title {
   color: inherit;
@@ -1235,15 +1240,19 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     margin-top: 15px;
     border: none;
     background: transparent;
-    -webkit-box-shadow: 10px 20px 10px 10px #878787;
+    -moz-box-shadow: 5px 6px 55px 10px #dcdcdc;
+    -webkit-box-shadow: 5px 6px 55px 10px #dcdcdc;
     box-shadow: 5px 6px 55px 10px #dcdcdc;
     border: 2px solid #ffffff;
+    -webkit-border-radius: 89px 475px 203px 355px/156px 72px 209px 133px;
+    -moz-border-radius: 89px 475px 203px 355px/156px 72px 209px 133px;
     border-radius: 89px 475px 203px 355px/156px 72px 209px 133px;
     background: #ffffff;
     padding: 10px;
     width: fit-content;
     position: relative;
-    right: -207px;
+    margin-left: auto;
+    margin-right: 0;
 }
 
 .bck-box.bck-box-3 .bck-title {
@@ -1296,6 +1305,57 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 .bck-box-16 .bck-content {
     padding: 0;
 }
+
+/*CAJA 5 - CAJA VERDE*/
+.bck-box.bck-box-5 {
+  padding: 8px 15px 8px 8px;
+  background-color: #E6E782;
+  box-shadow: 9px 10px 9px #00000024;
+}
+.bck-box-5 .bck-title {
+  color: #E61931;
+  font-family: 'Conv_billy-bold';
+}
+
+/*CAJA 6 - CAJA blanca*/
+.bck-box.bck-box-6 {
+  padding: 8px 15px 8px 8px;
+  background-color: white;
+  -webkit-box-shadow: -1px -1px 9px 5px #00000024;
+  -moz-box-shadow: -1px -1px 9px 5px #00000024;
+  box-shadow: -1px -1px 9px 5px #00000024;
+}
+.bck-box-6 .bck-title {
+  color: #E61931;
+  font-family: 'Conv_billy-bold';
+}
+
+/*CAJA 7 - Círculo azul*/
+.bck-box.bck-box-7 {
+  background: #5CC5E5;
+  padding: 34px;
+  border: 6px solid white;
+  -webkit-box-shadow: 4px 3px 11px #00000042;
+  -moz-box-shadow: 4px 3px 11px #00000042;
+  box-shadow: 4px 3px 11px #00000042;
+  min-height: 180px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 261px;
+  -webkit-border-radius: 32% 46% 33% 53% / 44% 44% 53% 56%;
+  -moz-border-radius: 32% 46% 33% 53% / 44% 44% 53% 56%;
+  border-radius: 32% 46% 33% 53% / 44% 44% 53% 56%;
+}
+.bck-box-7 .bck-title {
+  color: #E61931;
+  font-family: 'Conv_billy-bold';
+}
+
+
+
+
 
 
 /*caja imagen pantalla completa*/
