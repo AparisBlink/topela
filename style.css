@@ -1,82 +1,60 @@
 /*CSS TOPE-LÀ*/
 
 /* Fonts */
-@font-face {
-  font-family: 'Conv_billy-bold';
-  src: url('fonts/billy-bold.eot');
-  src: local('☺'), url('fonts/billy-bold.woff') format('woff'), url('fonts/billy-bold.ttf') format('truetype'), url('fonts/billy-bold.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+  @font-face {
+    font-family: 'Billy';
+    src: url('fonts/billy-light.eot');
+    src: local('☺'), url('fonts/billy-light.woff') format('woff'), url('fonts/billy-light.ttf') format('truetype'), url('fonts/billy-light.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Billy';
+    src: url('fonts/billy-regular.eot');
+    src: local('☺'), url('fonts/billy-regular.woff') format('woff'), url('fonts/billy-regular.ttf') format('truetype'), url('fonts/billy-regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
 
+  @font-face {
+    font-family: 'Billy';
+    src: url('fonts/billy-semibold.eot');
+    src: local('☺'), url('fonts/billy-semibold.woff') format('woff'), url('fonts/billy-semibold.ttf') format('truetype'), url('fonts/billy-semibold.svg') format('svg');
+    font-weight: 600;
+    font-style: normal;
+  }
 
-@font-face {
-  font-family: 'Conv_HelveticaNeueLTStd-Lt';
-  src: url('fonts/HelveticaNeueLTStd-Lt.eot');
-  src: local('☺'), url('fonts/HelveticaNeueLTStd-Lt.woff') format('woff'), url('fonts/HelveticaNeueLTStd-Lt.ttf') format('truetype'), url('fonts/HelveticaNeueLTStd-Lt.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+  @font-face {
+    font-family: 'Billy';
+    src: url('fonts/billy-bold.eot');
+    src: local('☺'), url('fonts/billy-bold.woff') format('woff'), url('fonts/billy-bold.ttf') format('truetype'), url('fonts/billy-bold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+  }
 
+  @font-face {
+    font-family: 'HelveticaNeueLTStd-Lt';
+    src: url('fonts/HelveticaNeueLTStd-Lt.eot');
+    src: local('☺'), url('fonts/HelveticaNeueLTStd-Lt.woff') format('woff'), url('fonts/HelveticaNeueLTStd-Lt.ttf') format('truetype'), url('fonts/HelveticaNeueLTStd-Lt.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
 
-@font-face {
-  font-family: 'Conv_HelveticaNeueLTStd-Lt';
-  src: url('fonts/HelveticaNeueLTStd-Lt.eot');
-  src: local('☺'), url('fonts/HelveticaNeueLTStd-Lt.woff') format('woff'), url('fonts/HelveticaNeueLTStd-Lt.ttf') format('truetype'), url('fonts/HelveticaNeueLTStd-Lt.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+  @font-face {
+    font-family: 'HelveticaNeueLTStd-Lt';
+    src: url('fonts/HelveticaNeueLTStd-BdIt.eot');
+    src: local('☺'), url('fonts/HelveticaNeueLTStd-BdIt.woff') format('woff'), url('fonts/HelveticaNeueLTStd-BdIt.ttf') format('truetype'), url('fonts/HelveticaNeueLTStd-BdIt.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+  }
 
-
-@font-face {
-  font-family: 'Conv_HelveticaNeueLTStd-BdIt';
-  src: url('fonts/HelveticaNeueLTStd-BdIt.eot');
-  src: local('☺'), url('fonts/HelveticaNeueLTStd-BdIt.woff') format('woff'), url('fonts/HelveticaNeueLTStd-BdIt.ttf') format('truetype'), url('fonts/HelveticaNeueLTStd-BdIt.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: 'Conv_HelveticaNeueLTStd-Bd';
-  src: url('fonts/HelveticaNeueLTStd-Bd.eot');
-  src: local('☺'), url('fonts/HelveticaNeueLTStd-Bd.woff') format('woff'), url('fonts/HelveticaNeueLTStd-Bd.ttf') format('truetype'), url('fonts/HelveticaNeueLTStd-Bd.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: 'Conv_billy-semibold';
-  src: url('fonts/billy-semibold.eot');
-  src: local('☺'), url('fonts/billy-semibold.woff') format('woff'), url('fonts/billy-semibold.ttf') format('truetype'), url('fonts/billy-semibold.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: 'Conv_billy-regular';
-  src: url('fonts/billy-regular.eot');
-  src: local('☺'), url('fonts/billy-regular.woff') format('woff'), url('fonts/billy-regular.ttf') format('truetype'), url('fonts/billy-regular.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: 'Conv_billy-light';
-  src: url('fonts/billy-light.eot');
-  src: local('☺'), url('fonts/billy-light.woff') format('woff'), url('fonts/billy-light.ttf') format('truetype'), url('fonts/billy-light.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+/*----*/
 
 /*General */
 body {
   font-size: 16px;
-  font-weight: 500;
-  font-family: 'Conv_HelveticaNeueLTStd-Lt';
+  font-weight: normal;
+  font-family: 'HelveticaNeueLTStd-Lt';
 }
 
 .body_clase .content-wrapper,
@@ -202,14 +180,14 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #bo
     color: #009ba7;
     background: #ffffff85;
     font-size: 2.7rem;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 34px;
     padding: 5px 20px;
     height: fit-content;
     margin: 5px 140px 20px 8px;
     z-index: 1;
     display: block;
-    font-family: 'Conv_HelveticaNeueLTStd-Bd';
+    font-family: 'HelveticaNeueLTStd-Lt';
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -414,8 +392,8 @@ body.is_app .topela-navbar.ocultar {
 }
 /**/
 
-/* CKEDITOR */
-#actividad .content img {
+/*Marco para imágenes con lupa*/
+.bck-i-fullscreen-wrapper {
   margin-top: 0px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -636,39 +614,28 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 /*Título Intro*/
 .bck-title-intro {
     color: #009BA7;
-    font-family: 'Conv_billy-bold';
+    font-family: 'Billy';
+    font-weight: bold;
     font-size: 4.5rem;
 }
 
 /*Titulo 1*/
 .bck-title-1 {
+    font-family: 'Billy';
     color: #009BA7;
     font-size: 2.8rem;
     position: relative;
     text-align: left;
-    font-weight: 700;
-    font-family: 'Conv_billy-bold';
+    font-weight: bold;
 }
-
-/*.bck-title-1:before {
-    background-size: contain;
-    content: " ";
-    padding: 40px 434px;
-    left: 63px;
-    margin-top: -30px;
-    background-repeat: no-repeat;
-    position: absolute;
-    background-image: url(images/titulo_lesson.png);
-}*/
-
 
 /*título negro*/
 .bck-title-12 {
   	color: #555;
     font-size: 2rem;
     text-align: left;
-    font-family: 'Conv_HelveticaNeueLTStd-Bd';
-    font-weight: 500;
+    font-family: 'HelveticaNeueLTStd-Lt';
+    font-weight: bold;
     position: relative;
     left: 9px;
 }
@@ -680,16 +647,24 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 
 /*-------------*/
 
-/*Tipo Billy*/
+/*ÉNFASIS 1 - Tipo Billy*/
 .bck-enfasis-1 {
-    font-family: 'Conv_billy-light';
+    font-family: 'Billy';
+    font-weight: 300;
 }
 
-/*énfasis enunciado*/
+/*ÉNFASIS 2 - énfasis enunciado*/
 .bck-enfasis-2 {
     font-size: 22px;
-    font-weight: 600;
-    font-family: 'Conv_HelveticaNeueLTStd-Bd';
+    font-weight: bold;
+    font-family: 'HelveticaNeueLTStd-Lt';
+}
+
+/*énfasis rojo*/
+.bck-enfasis-5 {
+  font-weight: 600;
+  color: #EF2C3F;
+  font-size: 2rem;
 }
 
 /*énfasis rojo*/
@@ -708,7 +683,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 /*Énfasis 7 = num.lesson*/
 .bck-enfasis-7 {
     color: #ffffff;
-    font-weight: 500;
     font-size: 3.5rem;
     background-size: contain;
     content: " ";
@@ -717,14 +691,98 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     background-image: url(images/titulo_lesson.png);
     padding: 38px 32px 12px 26px;
     top: -1px;
-    font-family: 'Conv_billy-semibold';
+    font-family: 'Billy';
+    font-weight: 600;
 }
 
+/*Énfasis 8 - Boc.Izq.Az*/ 
+.bck-enfasis-8:before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-top: 15px solid #0F99A8;
+  border-right: 20px solid transparent;
+  border-left: 0px solid transparent;
+  bottom: -15px;
+  margin: 0 0 0 40px;
+}
+.bck-enfasis-8 {
+  border-bottom: 2px solid #0F99A8;
+  padding-bottom: 3px;
+  font-family: 'Conv_billy-regular';
+  color: #0F99A8;
+  display: inline-block;
+  position: relative;
+}
+/*Énfasis 9 - Boc.Izq.Roj*/ 
+.bck-enfasis-9:before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-top: 15px solid #EF2C3F;
+  border-right: 20px solid transparent;
+  border-left: 0px solid transparent;
+  bottom: -15px;
+  margin: 0 0 0 40px;
+}
+.bck-enfasis-9 {
+  border-bottom: 2px solid #EF2C3F;
+  padding-bottom: 3px;
+  font-family: 'Conv_billy-regular';
+  color: #0F99A8;
+  display: inline-block;
+  position: relative;
+}
+/*Énfasis 10 - Boc.Der.Roj*/ 
+.bck-enfasis-10:before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-top: 15px solid #EF2C3F;
+  border-right: 0px solid transparent;
+  border-left: 20px solid transparent;
+  bottom: -15px;
+  margin: 0 65px 0 0px;
+  right: 0
+}
+.bck-enfasis-10 {
+  border-bottom: 2px solid #EF2C3F;
+  padding-bottom: 3px;
+  font-family: 'Conv_billy-regular';
+  color: #0F99A8;
+  display: inline-block;
+  position: relative;
+}
+/*Énfasis 11 - Boc.Der.Az*/ 
+.bck-enfasis-10:before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-top: 15px solid #0F99A8;
+  border-right: 0px solid transparent;
+  border-left: 20px solid transparent;
+  bottom: -15px;
+  margin: 0 65px 0 0px;
+  right: 0
+}
+.bck-enfasis-10 {
+  border-bottom: 2px solid #0F99A8;
+  padding-bottom: 3px;
+  font-family: 'Conv_billy-regular';
+  color: #0F99A8;
+  display: inline-block;
+  position: relative;
+}
 
 /*énfasis HelveticaNeueBold Azul*/
 .bck-enfasis-12 {
   color: #009BB1;
-  font-family: 'Conv_HelveticaNeueLTStd-Bd';
+  font-family: 'HelveticaNeueLTStd-Lt';
+  font-weight: bold;
 }
 
 /*Line Height Listas*/
@@ -954,8 +1012,8 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     margin-left: 0px;
     margin-top: 10px;
     font-size: 22px;
-    font-weight: 600;
-    font-family: 'Conv_HelveticaNeueLTStd-Bd';
+    font-weight: bold;
+    font-family: 'HelveticaNeueLTStd-Lt';
 }
 
 #actividad .content .cke_contents ol.bck-ol-2 li:before,
@@ -967,14 +1025,14 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     height: 27px;
     position: absolute;
     font-size: 2.2rem;
-    font-weight: 600;
+    font-weight: bold;
 
     color: #EF2C3E;
     background: none;
     margin-left: -35px;
     margin-right: 0px;
     text-align: right;
-    font-family: 'Conv_HelveticaNeueLTStd-Bd';	
+    font-family: 'HelveticaNeueLTStd-Lt';	
 }
 
 /*LISTA 3 = AZUL*/
@@ -1009,13 +1067,13 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     height: 27px;
     position: absolute;
     font-size: 2.2rem;
-    font-weight: 600;
+    font-weight: bold;
     color: rgb(0,155,167);
     background: none;
     margin-left: -35px;
     margin-right: 0px;
     text-align: right;
-    font-family: 'Conv_HelveticaNeueLTStd-Bd';  
+    font-family: 'HelveticaNeueLTStd-Lt';  
 }
 
 /*LISTA LetraMinusAzul*/
@@ -1051,9 +1109,9 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
   line-height: normal;
   margin-left: -20px;
   line-height: unset;
-  font-weight: 600;
+  font-weight: bold;
   margin-top: 0px;
-  font-family: 'Conv_HelveticaNeueLTStd-Bd';
+  font-family: 'HelveticaNeueLTStd-Lt';
 }
 
 /*LISTA LetraMinusNegra*/
@@ -1088,9 +1146,9 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     color: #000000;
     margin-left: -20px;
     line-height: unset;
-    font-weight: 600;
+    font-weight: bold;
     margin-top: -1px;
-    font-family: 'Conv_HelveticaNeueLTStd-Bd';
+    font-family: 'HelveticaNeueLTStd-Lt';
 }
 
 /*Lista GridLetraMinusNegra*/
@@ -1125,9 +1183,9 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     color: #000000;
     margin-left: -20px;
     line-height: unset;
-    font-weight: 600;
+    font-weight: bold;
     margin-top: 0px;
-    font-family: 'Conv_HelveticaNeueLTStd-Bd';
+    font-family: 'HelveticaNeueLTStd-Lt';
 }
 
 /*lista numCirculo*/
@@ -1201,7 +1259,8 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 .bck-box-1 .bck-content p {
     font-size: 3.5rem;
     color: #ffff;
-    font-family: 'Conv_billy-bold';
+    font-family: 'Billy';
+    font-weight: bold;
 }
 
 /*Caja 2 = blanca */
@@ -1231,7 +1290,8 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 
 .bck-box.bck-box-2 .bck-content {
     color: #EF2C3E;
-    font-family: 'Conv_billy-bold';
+    font-family: 'Billy';
+    font-weight: bold;
     padding: 5px;
 }
 
@@ -1262,7 +1322,8 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 
 .bck-box.bck-box-3 .bck-content {
     color: #009ba7;
-    font-family: 'Conv_billy-bold';
+    font-family: 'Billy';
+    font-weight: bold;
     padding: 5px;
 }
 
@@ -1290,22 +1351,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 }
 
 
-/*CAJA 16 Pantalla completa*/
-
-.bck-box.bck-box-16 {
-    position: relative;
-    padding: 0px;
-    background-size: cover;
-    top: -22px;
-    left: -97px;
-    width: 125.5%;
-    margin-bottom: -40px;
-}
-
-.bck-box-16 .bck-content {
-    padding: 0;
-}
-
 /*CAJA 5 - CAJA VERDE*/
 .bck-box.bck-box-5 {
   padding: 8px 15px 8px 8px;
@@ -1314,7 +1359,8 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 }
 .bck-box-5 .bck-title {
   color: #E61931;
-  font-family: 'Conv_billy-bold';
+  font-family: 'Billy';
+  font-weight: bold;
 }
 
 /*CAJA 6 - CAJA blanca*/
@@ -1327,7 +1373,8 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 }
 .bck-box-6 .bck-title {
   color: #E61931;
-  font-family: 'Conv_billy-bold';
+  font-family: 'Billy';
+  font-weight: bold;
 }
 
 /*CAJA 7 - Círculo azul*/
@@ -1350,25 +1397,36 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 }
 .bck-box-7 .bck-title {
   color: #E61931;
-  font-family: 'Conv_billy-bold';
+  font-family: 'Billy';
+  font-weight: bold;
+}
+
+/*CAJA 8 - Bordes amarillos*/
+.bck-box.bck-box-8 {
+  -moz-box-shadow: 0px 20px 0px -10px #fffefe, 0px -20px 0px -10px #ffffff, 21px 0px 0px -10px #FFFFFF, -21px 0px 0px -10px #FFFFFF, 0px 0px 0px 5px #FFED00, 5px 5px 5px 0px rgba(0,0,0,0);
+  -webkit-box-shadow: 0px 20px 0px -10px #fffefe, 0px -20px 0px -10px #ffffff, 21px 0px 0px -10px #FFFFFF, -21px 0px 0px -10px #FFFFFF, 0px 0px 0px 5px #FFED00, 5px 5px 5px 0px rgba(0,0,0,0);
+  box-shadow: 0px 20px 0px -10px #fffefe, 0px -20px 0px -10px #ffffff, 21px 0px 0px -10px #FFFFFF, -21px 0px 0px -10px #FFFFFF, 0px 0px 0px 5px #FFED00, 5px 5px 5px 0px rgba(0,0,0,0);
+  background: #FFFFFF;
+  padding: 8px 15px 8px 8px;
+  display: inline-block;
+}
+.bck-box-8 .bck-title {
+  color: #E61931;
+  font-family: 'Billy';
+  font-weight: bold;
 }
 
 
-
-
-
-
-/*caja imagen pantalla completa*/
-.bck-box.bck-box-31{
-	position: relative;
-        width: 127.9%;
-        left: -107px;
-	margin-top: -4.1%;
+/*CAJA 9 - CAJA Azul*/
+.bck-box.bck-box-9 {
+  padding: 8px 15px 8px 8px;
+  background-color: #D9EBEE;
+  -moz-box-shadow: 9px 10px 9px #00000024;
+  -webkit-box-shadow: 9px 10px 9px #00000024;
+  box-shadow: 9px 10px 9px #00000024;
 }
-
-.bck-box.bck-box-31 .bck-content{
-	padding: 0;
-	background-color: #ffffff00;
+.bck-box-9 .bck-title {
+color: inherit;
 }
 
 
@@ -2012,115 +2070,7 @@ border-color: #009FA5;
 }
 
 
-@media screen and (max-width: 768px) {
-
-      #actividad .content .header .title h3:after {
-      background-image: url(Images/triangulo-blanco2.png);
-      content: '';
-      background-size: contain;
-      background-repeat: no-repeat;
-      padding: 22px;
-      position: absolute;
-      width: 0px;
-      height: auto;
-      margin-left: 21.5px;
-      top: 65.5px;
-}
-      /*seccion inicio de unidad*/
-      #actividad .content .iniciounidad .header .title h3 {
-      margin-top: 104px;
-      }
-
-      #actividad .content .iniciounidad .header .title h3:after {
-          margin-top: 99px;
-      }
-
-      #actividad .player.audio, #actividad .player.video, #help-panel-content .player, #remote-alert-modal-rich .player {
-      display: inline-block;
-      background-image: url(images/rich_english_U7_pg64_img_0004.png);
-      background-color: rgba(0, 128, 0, 0)!important;
-      background-repeat: no-repeat;
-      background-size: contain;
-      -webkit-border-radius: 100%;
-      -moz-border-radius: 100%;
-      border-radius: 100%;
-      margin: 0 5px;
-      vertical-align: sub;
-  }
-
-  #actividad .carousel-inner .item-container {
-  -webkit-box-shadow: rgba(0, 0, 0, 0) 0 3px 9px;
-  -moz-box-shadow: rgba(0,0,0,0.298039) 0 3px 9px;
-  box-shadow: rgba(0, 0, 0, 0) 0 3px 9px;
-}
-	
-/*CAJA12- CoreValues */
-.bck-box.bck-box-12 {
-    margin-top: 15px;
-    background: #EEF4DC;
-    position: relative;
-    width: 133%;
-    left: -93px;
-}
-
-.bck-box.bck-box-12 .bck-title {
-    color: #ffff;
-    background-color: rgb(184,49,135);
-    padding-left: 12px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    width: fit-content;
-    position: relative;
-    top: -7px;
-    left: -1px;
-}
-	
-/*iconos niveles*/
-.icon-nivel1:before{
-	position: relative;
-    left: -86px;
-}
-
-.icon-nivel2:before{
-	position: relative;
-    left: -86px;
-}
-
-.icon-nivel3:before{
-	position: relative;
-    left: -86px;
-}
-
-.icon-nivel4:before{
-	position: relative;
-    left: -86px;
-}
-
-.icon-nivel5:before{
-	position: relative;
-    left: -86px;
-}
-
-.icon-nivel6:before{
-	position: relative;
-    left: -86px;
-}	
-}
-
 @media only screen and (max-width: 1024px) and (min-width: 769px)  {
-  #actividad .player.audio, #actividad .player.video, #help-panel-content .player, #remote-alert-modal-rich .player {
-      display: inline-block;
-      background-image: url(images/rich_english_U7_pg64_img_0004.png);
-      background-color: rgba(0, 128, 0, 0)!important;
-      background-repeat: no-repeat;
-      background-size: contain;
-      -webkit-border-radius: 100%;
-      -moz-border-radius: 100%;
-      border-radius: 100%;
-      margin: 0 5px;
-      vertical-align: sub;
-}
 
 #actividad .carousel-inner .item-container {
       -webkit-box-shadow: rgba(0, 0, 0, 0) 0 3px 9px;
