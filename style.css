@@ -413,15 +413,8 @@ body.is_app .topela-navbar.ocultar {
 
 /*Marco para imágenes con lupa*/
 .bck-i-fullscreen-wrapper {
-  margin-top: 0px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  vertical-align: middle;
-  border-radius: 0px;
-    border: 5PX SOLID #FFFF;
-    vertical-align: middle;
-    -webkit-box-shadow: 10px 10px 10px 10px #171212;
+    -moz-box-shadow: 1px 0px 7px 5px #E2E2E2;
+    -webkit-box-shadow: 1px 0px 7px 5px #E2E2E2;
     box-shadow: 1px 0px 7px 5px #E2E2E2;
 }
 
@@ -629,42 +622,70 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 -webkit-box-shadow: 2px 2px 2px undefinedpx #A8A3A2;
   box-shadow: 2px 2px 2px undefinedpx #A8A3A2;
 }
+/*------*/
 
-/*Título Intro*/
-.bck-title-intro {
-    color: #009BA7;
+/*------------------- ESTILOS CK EDITOR ---------------------*/
+
+/*Títulos Intro, Intro Rojo, Intro verde, Intro morado*/
+  .bck-title-intro,
+  .bck-title-2,
+  .bck-title-3,
+  .bck-title-4 {
     font-family: 'Billy';
     font-weight: bold;
     font-size: 4.5rem;
-}
-
-/*Titulo 1*/
-.bck-title-1 {
-    font-family: 'Billy';
+  }
+  .bck-title-intro {
     color: #009BA7;
+  }
+  .bck-title-2 {
+    color: #E61931;
+  }
+  .bck-title-3 {
+    color: #007149;
+  }
+  .bck-title-4 {
+    color: #20409B;
+  }
+
+/*T. Azul, T.Verde, T.Rojo, T.Morado*/
+  .bck-title-1,
+  .bck-title-5,
+  .bck-title-6,
+  .bck-title-7 {
+    font-family: 'Billy';
     font-size: 2.8rem;
     position: relative;
     text-align: left;
     font-weight: bold;
-}
+  }
+  .bck-title-1 {
+    color: #009BA7;
+  }
+  .bck-title-5 {
+    color: #E61931;
+  }
+  .bck-title-6 {
+    color: #007149;
+  }
+  .bck-title-7 {
+    color: #20409B;
+  }
 
-/*título negro*/
-.bck-title-12 {
-  	color: #555;
-    font-size: 2rem;
-    text-align: left;
-    font-family: 'HelveticaNeueLTStd-Lt';
-    font-weight: bold;
-    position: relative;
-    left: 9px;
-}
+  /*título negro*/
+  .bck-title-12 {
+      color: #555;
+      font-size: 2rem;
+      text-align: left;
+      font-family: 'HelveticaNeueLTStd-Lt';
+      font-weight: bold;
+      position: relative;
+      left: 9px;
+  }
 
-/*párrafos - altura linea
-.texto_curso p{
-	line-height: 1.9!important;
-}*/
+/*----*/
 
-/*-------------*/
+/*---- ÉNFASIS ----*/
 
 /*ÉNFASIS 1 - Tipo Billy*/
 .bck-enfasis-1 {
