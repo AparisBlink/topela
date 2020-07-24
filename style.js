@@ -14,8 +14,14 @@
 		ckEditorStyles: {
 			name: 'topela',
 			styles: [
-				{ name: 'Título Intro', element: 'h2', attributes: { 'class': 'bck-title-intro'} },
-				{ name: 'Título 1', element: 'h2', attributes: { 'class': 'bck-title-1'} },
+				{ name: 'T.Intro', element: 'h2', attributes: { 'class': 'bck-title-intro'} },
+				{ name: 'T.Intro Rojo', element: 'h2', attributes: { 'class': 'bck-title-2'} },
+				{ name: 'T.Intro Verde', element: 'h2', attributes: { 'class': 'bck-title-3'} },
+				{ name: 'T.Intro Morado', element: 'h2', attributes: { 'class': 'bck-title-4'} },
+				{ name: 'T.Azul', element: 'h2', attributes: { 'class': 'bck-title-1'} },
+				{ name: 'T.Rojo', element: 'h2', attributes: { 'class': 'bck-title-5'} },
+				{ name: 'T.Verde', element: 'h2', attributes: { 'class': 'bck-title-6'} },
+				{ name: 'T.Morado', element: 'h2', attributes: { 'class': 'bck-title-7'} },
 				{ name: 'Título negro', element: 'h2', attributes: { 'class': 'bck-title-12'} },
 				
 				{ name: 'Billy', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
