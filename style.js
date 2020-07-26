@@ -26,10 +26,19 @@
 				
 				{ name: 'Billy', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
 				{ name: 'Énfasis enunciado', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
-				{ name: 'Énfasis rojo', element: 'span', attributes: { 'class': 'bck-enfasis-5'} },
-				{ name: 'Énfasis azul', element: 'span', attributes: { 'class': 'bck-enfasis-6'} },
+				{ name: 'Color Verde', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
+				{ name: 'Color Morado', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
+				{ name: 'Color rojo', element: 'span', attributes: { 'class': 'bck-enfasis-5'} },
+				{ name: 'Color azul', element: 'span', attributes: { 'class': 'bck-enfasis-6'} },
 				{ name: 'Énfasis num. Lesson', element: 'span', attributes: { 'class': 'bck-enfasis-7'} },
-				{ name: 'HelveticaNeueBold Azul', element: 'span', attributes: { 'class': 'bck-enfasis-12'} },
+				{ name: 'Boc.Izq.Az', element: 'span', attributes: { 'class': 'bck-enfasis-8'} },
+				{ name: 'Boc.Izq.Roj', element: 'span', attributes: { 'class': 'bck-enfasis-9'} },
+				{ name: 'Boc.Izq.Verde', element: 'span', attributes: { 'class': 'bck-enfasis-10'} },
+				{ name: 'Boc.Izq.Mor', element: 'span', attributes: { 'class': 'bck-enfasis-11'} },
+				{ name: 'Boc.Der.Az', element: 'span', attributes: { 'class': 'bck-enfasis-12'} },
+				{ name: 'Boc.Der.Roj', element: 'span', attributes: { 'class': 'bck-enfasis-13'} },
+				{ name: 'Boc.Der.Verde', element: 'span', attributes: { 'class': 'bck-enfasis-14'} },
+				{ name: 'Boc.Der.Mor', element: 'span', attributes: { 'class': 'bck-enfasis-15'} },
 
 				
 				{ name: 'Lista Desordenada', element: 'ul', attributes: { 'class': 'bck-ul-3'} },
