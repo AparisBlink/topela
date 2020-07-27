@@ -154,18 +154,7 @@ p {
 }
 
 
-/*ENLACE WEB*/
 
-/*#actividad a {
-  -webkit-border-radius: 2px;
-     -moz-border-radius: 2px;
-          border-radius: 2px;
-  background-color: #F9F2F4;
-  padding: 0px 5px;
-  color: #AECE5D;
-  font-weight: 600;
-  text-decoration: none;
-}*/
 
 /*TOC*/
 body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, 
@@ -177,17 +166,24 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
     color: #009ba7;
 }
 
-/*INDICE LATERAL*/
-body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #book-index #indice .units ul li.active a {
-  background: #009ba7;
+#indice .units ul li.active:not(.disabled),
+#indice .units ul li:focus:not(.disabled) {
+  background: #D9EBEE;
+  border: dashed 3px #009BA7;	
+  padding: 5px 0;
+}
+#indice .units ul li {
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px 1px #C2C2C2;
+  box-shadow: 1px 1px 1px 1px #C2C2C2;
+  background: #009BA7;
+  transition: all 0.2s ease;
 }
 
-#book-index .col-indice{
-  background: #99d7dc;
-}
-
-#book-index .col-main {
-      background: #009ba7;
+#indice .units ul li a .title{
+  color: #ffff;
 }
 
 #indice .unit-content {
@@ -215,29 +211,21 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #bo
     text-overflow: ellipsis;
 }
 
+/*INDICE LATERAL*/
+body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #book-index #indice .units ul li.active a {
+  background: #009ba7;
+}
+
+#book-index .col-indice{
+  background: #99d7dc;
+}
+
+#book-index .col-main {
+      background: #009ba7;
+}
 
 #indice .unit-content .actividades .item .nota {
       background-color: #428bca;
-}
-
-#indice .units ul li {
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
-  -webkit-box-shadow: 1px 1px 1px 1px #C2C2C2;
-  box-shadow: 1px 1px 1px 1px #C2C2C2;
-  background: #009BA7;
-}
-
-#indice .units ul li a .title{
-  color: #ffff;
-}
-
-#indice .units ul li.active:not(.disabled),
-#indice .units ul li:focus:not(.disabled) {
-  /*background: #009BA7;*/
-  background: #D9EBEE;
-  border: dashed 3px #009BA7;	
 }
 
 body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover{
@@ -562,19 +550,10 @@ vertical-align: top;
 /*test*/
 #actividad .workspace.test .respuestas li{
   width: 33%;
-  /*width: 45%;*/
 }
 
 /**/
-/*Classify activities*/
-#actividad .workspace.clasificar .clasificar_lista .classify-item {
-  border-color: #ffab7d;
-  padding: 6px;
-}
 
-#actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-  border: 3px solid #fcd7c3;
-}
 /**/
 
 /*Icono audioRojo*/
@@ -743,7 +722,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 
 /*Énfasis 8 - 11 Boc.Izq*/ 
 .bck-enfasis-8:before,
-.bck-enfasis-9:before,
+.bck-enfasis-:before,
 .bck-enfasis-10:before,
 .bck-enfasis-11:before {
   content: "";
@@ -757,7 +736,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
   margin: 0 0 0 40px;
 }
 .bck-enfasis-8,
-.bck-enfasis-9,
+.bck-enfasis-,
 .bck-enfasis-10,
 .bck-enfasis-11 {
   border-bottom: 2px solid #0F99A8;
@@ -859,450 +838,577 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
   line-height: 1.8em!important;
 }
 
-/*LISTAS DESORDENADAS*/
+/*--------------- LISTAS DESORDENADAS -------------------*/
+  .texto_curso ul li,
+  .popover-template .popover-content ul li {
+  padding-left: 42px;
+  }
 
-.texto_curso ul li,
-.popover-template .popover-content ul li {
- padding-left: 42px;
-}
-
-#actividad .popover-background.shown .popover-content > ul > li:before {
-  position: absolute;
-}
-
-#actividad .texto_curso li,
-#actividad .workspace ul li li,
-#actividad .popover-content ul li {
-  position: relative;
-  margin-bottom: 10px;
-}
-
-/*lista desordenada */
-
-#actividad .content .texto_curso .bck-ul-3 li,
-#actividad .content .workspace ul li .bck-ul-3 li ,
-#actividad .popover-background.shown .popover-content .bck-ul-3 li {
-  font-size: 2rem;
-  font-weight: 100;
-}
-
-#actividad .content .texto_curso .bck-ul-3 li:before,
-#actividad .content .workspace ul li .bck-ul-3 li:before ,
-#actividad .popover-background.shown .popover-content .bck-ul-3 li:before{
-  content: "";
-  height: 6px;
-  width: 6px;
-  background-color: #333;
-  position: absolute;
-  top: 2px;
-  border-radius: 100%;
-  margin: 12px 0 0 -15px;
-  left: auto;
-}
-
-/*lista des 1*/
-
-#actividad .content .texto_curso .bck-ul-1 li,
-#actividad .content .workspace ul li .bck-ul-1 li ,
-#actividad .popover-background.shown .popover-content .bck-ul-1 li {
-  font-size: 2rem;
-  font-weight: 100;
-  margin-left: -2px;
-}
-
-#actividad .content .texto_curso .bck-ul-1 li:before,
-#actividad .content .workspace ul li .bck-ul-1 li:before ,
-#actividad .popover-background.shown .popover-content .bck-ul-1 li:before{
-      content: "";
-    color: #1D1D1B;
-    content: "";
-    height: 8px;
-    width: 8px;
-    background-color: #1D1D1B;
-    border-radius: 0;
-    margin-top: 14px;
-    margin-left: -19px;
-}
-
-/*Lista DesNaranja*/
-
-#actividad .content .texto_curso .bck-ul-2 li,
-#actividad .content .workspace ul li .bck-ul-2 li ,
-#actividad .popover-background.shown .popover-content .bck-ul-2 li {
-  line-height: 1.8em!important;
-}
-
-#actividad .content .texto_curso .bck-ul-2 li:before,
-#actividad .content .workspace ul li .bck-ul-2 li:before ,
-#actividad .popover-background.shown .popover-content .bck-ul-2 li:before {
-  content: "";
-  height: 7px;
-  width: 7px;
-  background-color: #ec6608;
-  position: absolute;
-  top: 2px;
-  border-radius: 100%;
-  left: auto;
-  margin: 13px 0 0 -15px;
-}
-
-
-/*lista desordenada 4*/
-
-#actividad .content .texto_curso .bck-ul-4 li,
-#actividad .content .workspace ul li .bck-ul-4 li ,
-#actividad .popover-background.shown .popover-content .bck-ul-4 li {
-  font-size: 1.8rem;
-  font-weight: 100;
-  margin-left: -2px;
-  color: #009fa5;
-  margin-bottom: 0px;
-}
-
-#actividad .content .texto_curso .bck-ul-4 li:before,
-#actividad .content .workspace ul li .bck-ul-4 li:before ,
-#actividad .popover-background.shown .popover-content .bck-ul-4 li:before{
-    content: "";
-    height: 8px;
-    width: 8px;
-    background-color: #009fa5;
-    border-radius: 0;
-    margin-top: 14px;
-    margin-left: -19px;
-}
-
-/*lista desordenada 5*/
-
-#actividad .content .texto_curso .bck-ul-5 li,
-#actividad .content .workspace ul li .bck-ul-5 li ,
-#actividad .popover-background.shown .popover-content .bck-ul-5 li {
-  font-size: 1.8rem;
-  font-weight: 100;
-  margin-left: -2px;
-  color: #fff;
-  margin-bottom: 0px;
-}
-
-#actividad .content .texto_curso .bck-ul-5 li:before,
-#actividad .content .workspace ul li .bck-ul-5 li:before ,
-#actividad .popover-background.shown .popover-content .bck-ul-5 li:before{
-    content: "";
-    height: 8px;
-    width: 8px;
-    background-color: #fff;
-    border-radius: 0;
-    margin-top: 14px;
-    margin-left: -19px;
-}
-
-/*LISTAS ORDENADAS*/
-
-/*LISTA ORDENADA General*/
-
-#actividad .content .cke_contents .bck-ol li:before,
-#actividad .content .texto_curso .bck-ol li:before,
-#actividad .popover-content .bck-ol li:before,
-#actividad .content .workspace ul li .bck-ol li:before {
-  position: relative;
-  text-align: center;
-  margin-left: -10px;
-}
-
-#actividad .content .cke_contents .bck-ol li {
-  margin-left: 0px;
-}
-
-
-/*LISTA 1*/
-#actividad .content .cke_contents .bck-ol-1,
-#actividad .content .texto_curso .bck-ol-1,
-#actividad .content .workspace ul li .bck-ol-1,
-#actividad .popover-content .bck-ol-1 {
-  list-style-type: none;
-  counter-reset: bck-li-counter;
-}
-
-#actividad .content .cke_contents .bck-ol-1 li,
-#actividad .content .cke_contents .bck-ol-1 li,
-#actividad .content .texto_curso .bck-ol-1 li,
-#actividad .popover-content .bck-ol-1 li,
-#actividad .content .workspace ul li .bck-ol-1 li {
- 	counter-increment: bck-li-counter;
-    padding-left: 0px;
-    position: relative;
-    z-index: 0;
-    font-weight: 500;
-    margin-left: -12px;
-    margin-top: 10px;
-    font-size: 2rem;
-    font-family: 'Conv_FuturaStd-Medium';
-    line-height: 1.8em!important;
-}
-
-#actividad .content .cke_contents .bck-ol-1 li:before,
-#actividad .content .texto_curso .bck-ol-1 li:before,
-#actividad .popover-content .bck-ol-1 li:before,
-#actividad .content .workspace ul li .bck-ol-1 li:before {
-  content: counter(bck-li-counter);
-    width: 32px;
-    height: 27px;
+  #actividad .popover-background.shown .popover-content > ul > li:before {
     position: absolute;
-    color: #ffff;
-    background: none;
-    margin-left: -46px;
-    margin-right: 0px;
-    text-align: right;
-    font-family: 'Conv_FuturaStd-Medium';
-    font-size: 2.3rem;
-    font-weight: 600;
-    line-height: normal;
-    top: 1px;
-    left: auto;
-}
+  }
 
-/*LISTA 2 = ROJA*/
-#actividad .content .cke_contents .bck-ol-2,
-#actividad .content .texto_curso .bck-ol-2,
-#actividad .content .workspace ul li .bck-ol-2,
-#actividad .popover-content .bck-ol-2 {
-  list-style-type: none;
-  counter-reset: bck-li-counter;
-}
-
-#actividad .content .cke_contents .bck-ol-2 li,
-#actividad .content .cke_contents .bck-ol-2 li,
-#actividad .content .texto_curso .bck-ol-2 li,
-#actividad .popover-content .bck-ol-2 li,
-#actividad .content .workspace ul li .bck-ol-2 li {
-	counter-increment: bck-li-counter;
-    padding-left: 0px;
+  #actividad .texto_curso li,
+  #actividad .workspace ul li li,
+  #actividad .popover-content ul li {
     position: relative;
-    z-index: 0;
-    margin-left: 0px;
-    margin-top: 10px;
-    font-size: 22px;
-    font-weight: bold;
-    font-family: 'HelveticaNeueLTStd-Lt';
-}
-
-#actividad .content .cke_contents ol.bck-ol-2 li:before,
-#actividad .content .texto_curso ol.bck-ol-2 li:before,
-#actividad .popover-content ol.bck-ol-2 li:before,
-#actividad .content .workspace ul li ol.bck-ol-2 li:before {
-  	content: counter(bck-li-counter)". ";
-    width: 27px;
-    height: 27px;
+    margin-bottom: 10px;
+  }
+  #actividad .texto_curso li:before,
+  #actividad .workspace ul li li:before,
+  #actividad .popover-content ul li:before {
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #000000;
     position: absolute;
-    font-size: 2.2rem;
-    font-weight: bold;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    margin-top: 15px;
+    margin-left: -15px;
+  }
 
-    color: #EF2C3E;
-    background: none;
-    margin-left: -35px;
-    margin-right: 0px;
-    text-align: right;
-    font-family: 'HelveticaNeueLTStd-Lt';	
-}
+  /*Lista Desordenada 1 - Azul*/
+  #actividad .content .texto_curso .bck-ul-1 li:before,
+  #actividad .content .workspace ul li .bck-ul-1 li:before ,
+  #actividad .popover-background.shown .popover-content .bck-ul-1 li:before{
+      background-color: #0F99A8;
+  }
 
-/*LISTA 3 = AZUL*/
-#actividad .content .cke_contents .bck-ol-3,
-#actividad .content .texto_curso .bck-ol-3,
-#actividad .content .workspace ul li .bck-ol-3,
-#actividad .popover-content .bck-ol-3 {
-  list-style-type: none;
-  counter-reset: bck-li-counter;
-}
+  /*Lista Desordenada 2 - Roja*/
+  #actividad .content .texto_curso .bck-ul-2 li:before,
+  #actividad .content .workspace ul li .bck-ul-2 li:before ,
+  #actividad .popover-background.shown .popover-content .bck-ul-2 li:before{
+      background-color: #EF2C3E;
+  }
 
-#actividad .content .cke_contents .bck-ol-3 li,
-#actividad .content .cke_contents .bck-ol-3 li,
-#actividad .content .texto_curso .bck-ol-3 li,
-#actividad .popover-content .bck-ol-3 li,
-#actividad .content .workspace ul li .bck-ol-3 li {
-  counter-increment: bck-li-counter;
-    padding-left: 0px;
+  /*Lista Desordenada 3 - Verde*/
+  #actividad .content .texto_curso .bck-ul-3 li:before,
+  #actividad .content .workspace ul li .bck-ul-3 li:before ,
+  #actividad .popover-background.shown .popover-content .bck-ul-3 li:before{
+      background-color: #007149;
+  }
+
+  /*Lista Desordenada 4 - Morado*/
+  #actividad .content .texto_curso .bck-ul-4 li:before,
+  #actividad .content .workspace ul li .bck-ul-4 li:before ,
+  #actividad .popover-background.shown .popover-content .bck-ul-4 li:before{
+      background-color: #20409B;
+  }
+
+  /*Lista Desordenada 5 - Blanca*/
+  #actividad .content .texto_curso .bck-ul-5 li:before,
+  #actividad .content .workspace ul li .bck-ul-5 li:before ,
+  #actividad .popover-background.shown .popover-content .bck-ul-5 li:before{
+      background-color: white;
+  }
+/*----------*/
+
+
+/* ---------------- LISTAS ORDENADAS -----------------------*/
+
+  /*LISTA ORDENADA General*/
+
+  #actividad .content .cke_contents .bck-ol li:before,
+  #actividad .content .texto_curso .bck-ol li:before,
+  #actividad .popover-content .bck-ol li:before,
+  #actividad .content .workspace ul li .bck-ol li:before {
     position: relative;
-    z-index: 0;
+    text-align: center;
+    margin-left: -10px;
+  }
+  #actividad .content .cke_contents .bck-ol li {
     margin-left: 0px;
-    margin-top: 10px;
-    font-size: 1.8rem;
-}
+  }
 
-#actividad .content .cke_contents ol.bck-ol-3 li:before,
-#actividad .content .texto_curso ol.bck-ol-3 li:before,
-#actividad .popover-content ol.bck-ol-3 li:before,
-#actividad .content .workspace ul li ol.bck-ol-3 li:before {
+
+  /*LISTA 1*/
+  #actividad .content .cke_contents .bck-ol-1,
+  #actividad .content .texto_curso .bck-ol-1,
+  #actividad .content .workspace ul li .bck-ol-1,
+  #actividad .popover-content .bck-ol-1 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+  }
+
+  #actividad .content .cke_contents .bck-ol-1 li,
+  #actividad .content .cke_contents .bck-ol-1 li,
+  #actividad .content .texto_curso .bck-ol-1 li,
+  #actividad .popover-content .bck-ol-1 li,
+  #actividad .content .workspace ul li .bck-ol-1 li {
+    counter-increment: bck-li-counter;
+      padding-left: 0px;
+      position: relative;
+      z-index: 0;
+      font-weight: 500;
+      margin-left: -12px;
+      margin-top: 10px;
+      font-size: 2rem;
+      font-family: 'Conv_FuturaStd-Medium';
+      line-height: 1.8em!important;
+  }
+
+  #actividad .content .cke_contents .bck-ol-1 li:before,
+  #actividad .content .texto_curso .bck-ol-1 li:before,
+  #actividad .popover-content .bck-ol-1 li:before,
+  #actividad .content .workspace ul li .bck-ol-1 li:before {
     content: counter(bck-li-counter)". ";
     width: 27px;
     height: 27px;
     position: absolute;
     font-size: 2.2rem;
     font-weight: bold;
-    color: rgb(0,155,167);
+    color: white;
     background: none;
     margin-left: -35px;
     margin-right: 0px;
     text-align: right;
-    font-family: 'HelveticaNeueLTStd-Lt';  
-}
+    font-family: 'HelveticaNeueLTStd-Lt';	
+  }
 
-/*LISTA LetraMinusAzul*/
-#actividad .content .cke_contents .bck-ol-4,
-#actividad .content .texto_curso .bck-ol-4,
-#actividad .content .workspace ul li .bck-ol-4,
-#actividad .popover-content .bck-ol-4 {
-  list-style-type: none;
-  counter-reset: bck-li-counter;
-  margin-left: 20px;
-}
+  /*LISTA 2 = ROJA*/
+  #actividad .content .cke_contents .bck-ol-2,
+  #actividad .content .texto_curso .bck-ol-2,
+  #actividad .content .workspace ul li .bck-ol-2,
+  #actividad .popover-content .bck-ol-2 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+  }
 
-#actividad .content .cke_contents .bck-ol-4 li,
-#actividad .content .cke_contents .bck-ol-4 li,
-#actividad .content .texto_curso .bck-ol-4 li,
-#actividad .popover-content .bck-ol-4 li,
-#actividad .content .workspace ul li .bck-ol-4 li {
-  counter-increment: bck-li-counter;
-  padding-left: 0px;
-  position: relative;
-  z-index: 0;
-  margin-left: 10px;
-}
+  #actividad .content .cke_contents .bck-ol-2 li,
+  #actividad .content .cke_contents .bck-ol-2 li,
+  #actividad .content .texto_curso .bck-ol-2 li,
+  #actividad .popover-content .bck-ol-2 li,
+  #actividad .content .workspace ul li .bck-ol-2 li {
+    counter-increment: bck-li-counter;
+      padding-left: 0px;
+      position: relative;
+      z-index: 0;
+      margin-left: 0px;
+      margin-top: 10px;
+      font-size: 22px;
+      font-weight: bold;
+      font-family: 'HelveticaNeueLTStd-Lt';
+  }
 
-#actividad .content .cke_contents .bck-ol-4 li:before,
-#actividad .content .texto_curso ol.bck-ol-4 li:before,
-#actividad .popover-content ol.bck-ol-4 li:before,
-#actividad .content .workspace ul li ol.bck-ol-4 li:before {
-  content: counter(bck-li-counter, lower-alpha)".";
-  position: absolute;
-  text-align: center;
-  color: #009BA7;
-  line-height: normal;
-  margin-left: -20px;
-  line-height: unset;
-  font-weight: bold;
-  margin-top: 0px;
-  font-family: 'HelveticaNeueLTStd-Lt';
-}
+  #actividad .content .cke_contents ol.bck-ol-2 li:before,
+  #actividad .content .texto_curso ol.bck-ol-2 li:before,
+  #actividad .popover-content ol.bck-ol-2 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-2 li:before {
+      content: counter(bck-li-counter)". ";
+      width: 27px;
+      height: 27px;
+      position: absolute;
+      font-size: 2.2rem;
+      font-weight: bold;
+      color: #EF2C3E;
+      background: none;
+      margin-left: -35px;
+      margin-right: 0px;
+      text-align: right;
+      font-family: 'HelveticaNeueLTStd-Lt';	
+  }
 
-/*LISTA LetraMinusNegra*/
-#actividad .content .cke_contents .bck-ol-5,
-#actividad .content .texto_curso .bck-ol-5,
-#actividad .content .workspace ul li .bck-ol-5,
-#actividad .popover-content .bck-ol-5 {
-  list-style-type: none;
-  counter-reset: bck-li-counter;
-  margin-left: 20px;
-}
+  /*LISTA 3 = AZUL*/
+  #actividad .content .cke_contents .bck-ol-3,
+  #actividad .content .texto_curso .bck-ol-3,
+  #actividad .content .workspace ul li .bck-ol-3,
+  #actividad .popover-content .bck-ol-3 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+  }
 
-#actividad .content .cke_contents .bck-ol-5 li,
-#actividad .content .cke_contents .bck-ol-5 li,
-#actividad .content .texto_curso .bck-ol-5 li,
-#actividad .popover-content .bck-ol-5 li,
-#actividad .content .workspace ul li .bck-ol-5 li {
-  counter-increment: bck-li-counter;
-  padding-left: 0px;
-  position: relative;
-  z-index: 0;
-  margin-left: 10px;
-}
+  #actividad .content .cke_contents .bck-ol-3 li,
+  #actividad .content .cke_contents .bck-ol-3 li,
+  #actividad .content .texto_curso .bck-ol-3 li,
+  #actividad .popover-content .bck-ol-3 li,
+  #actividad .content .workspace ul li .bck-ol-3 li {
+    counter-increment: bck-li-counter;
+      padding-left: 0px;
+      position: relative;
+      z-index: 0;
+      margin-left: 0px;
+      margin-top: 10px;
+      font-size: 22px;
+      font-weight: bold;
+      font-family: 'HelveticaNeueLTStd-Lt';
+  }
 
-#actividad .content .cke_contents .bck-ol-5 li:before,
-#actividad .content .texto_curso ol.bck-ol-5 li:before,
-#actividad .popover-content ol.bck-ol-5 li:before,
-#actividad .content .workspace ul li ol.bck-ol-5 li:before {
+  #actividad .content .cke_contents ol.bck-ol-3 li:before,
+  #actividad .content .texto_curso ol.bck-ol-3 li:before,
+  #actividad .popover-content ol.bck-ol-3 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-3 li:before {
+    content: counter(bck-li-counter)". ";
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #009BA7;
+    background: none;
+    margin-left: -35px;
+    margin-right: 0px;
+    text-align: right;
+    font-family: 'HelveticaNeueLTStd-Lt';	
+  }
+
+  /*LISTA 4  LetraMinusAzul*/
+  #actividad .content .cke_contents .bck-ol-4,
+  #actividad .content .texto_curso .bck-ol-4,
+  #actividad .content .workspace ul li .bck-ol-4,
+  #actividad .popover-content .bck-ol-4 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+    margin-left: 20px;
+  }
+
+  #actividad .content .cke_contents .bck-ol-4 li,
+  #actividad .content .cke_contents .bck-ol-4 li,
+  #actividad .content .texto_curso .bck-ol-4 li,
+  #actividad .popover-content .bck-ol-4 li,
+  #actividad .content .workspace ul li .bck-ol-4 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    margin-left: 10px;
+  }
+
+  #actividad .content .cke_contents .bck-ol-4 li:before,
+  #actividad .content .texto_curso ol.bck-ol-4 li:before,
+  #actividad .popover-content ol.bck-ol-4 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-4 li:before {
     content: counter(bck-li-counter, lower-alpha)".";
     position: absolute;
     text-align: center;
-    color: #000000;
-    margin-left: -20px;
-    line-height: unset;
-    font-weight: bold;
-    margin-top: -1px;
-    font-family: 'HelveticaNeueLTStd-Lt';
-}
-
-/*Lista GridLetraMinusNegra*/
-#actividad .content .cke_contents .bck-ol-6,
-#actividad .content .texto_curso .bck-ol-6,
-#actividad .content .workspace ul li .bck-ol-6,
-#actividad .popover-content .bck-ol-6 {
-  list-style-type: none;
-  counter-reset: bck-li-counter;
-  margin-left: -10px;
-}
-
-#actividad .content .cke_contents .bck-ol-6 li,
-#actividad .content .cke_contents .bck-ol-6 li,
-#actividad .content .texto_curso .bck-ol-6 li,
-#actividad .popover-content .bck-ol-6 li,
-#actividad .content .workspace ul li .bck-ol-6 li {
-  counter-increment: bck-li-counter;
-  padding-left: 0px;
-  position: relative;
-  z-index: 0;
-  margin-left: 0px;
-}
-
-#actividad .content .cke_contents ol.bck-ol-6 li:before,
-#actividad .content .texto_curso ol.bck-ol-6 li:before,
-#actividad .popover-content ol.bck-ol-6 li:before,
-#actividad .content .workspace ul li ol.bck-ol-6 li:before {
-	content: counter(bck-li-counter, lower-alpha)".";
-    position: absolute;
-    text-align: center;
-    color: #000000;
+    color: #009BA7;
+    line-height: normal;
     margin-left: -20px;
     line-height: unset;
     font-weight: bold;
     margin-top: 0px;
     font-family: 'HelveticaNeueLTStd-Lt';
-}
+  }
 
-/*lista numCirculo*/
-#actividad .content .cke_contents .bck-ol-7,
-#actividad .content .texto_curso .bck-ol-7,
-#actividad .content .workspace ul li .bck-ol-7,
-#actividad .popover-content .bck-ol-7 {
-  list-style-type: none;
-  counter-reset: bck-li-counter;
-  margin-left: -10px;
-}
+  /*LISTA 5 - LetraMinusNegra*/
+  #actividad .content .cke_contents .bck-ol-5,
+  #actividad .content .texto_curso .bck-ol-5,
+  #actividad .content .workspace ul li .bck-ol-5,
+  #actividad .popover-content .bck-ol-5 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+    margin-left: 20px;
+  }
 
-#actividad .content .cke_contents .bck-ol-7 li, 
-#actividad .content .cke_contents .bck-ol-7 li, 
-#actividad .content .texto_curso .bck-ol-7 li, 
-#actividad .popover-content .bck-ol-7 li, 
-#actividad .content .workspace ul li .bck-ol-7 li{
-  counter-increment: bck-li-counter;
+  #actividad .content .cke_contents .bck-ol-5 li,
+  #actividad .content .cke_contents .bck-ol-5 li,
+  #actividad .content .texto_curso .bck-ol-5 li,
+  #actividad .popover-content .bck-ol-5 li,
+  #actividad .content .workspace ul li .bck-ol-5 li {
+    counter-increment: bck-li-counter;
     padding-left: 0px;
     position: relative;
     z-index: 0;
-    font-weight: 500;
+    margin-left: 10px;
+  }
+
+  #actividad .content .cke_contents .bck-ol-5 li:before,
+  #actividad .content .texto_curso ol.bck-ol-5 li:before,
+  #actividad .popover-content ol.bck-ol-5 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-5 li:before {
+      content: counter(bck-li-counter, lower-alpha)".";
+      position: absolute;
+      text-align: center;
+      color: #000000;
+      margin-left: -20px;
+      line-height: unset;
+      font-weight: bold;
+      margin-top: -1px;
+      font-family: 'HelveticaNeueLTStd-Lt';
+  }
+
+  /*Lista 6 - GridLetraMinusNegra*/
+  #actividad .content .cke_contents .bck-ol-6,
+  #actividad .content .texto_curso .bck-ol-6,
+  #actividad .content .workspace ul li .bck-ol-6,
+  #actividad .popover-content .bck-ol-6 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+    margin-left: -10px;
+  }
+
+  #actividad .content .cke_contents .bck-ol-6 li,
+  #actividad .content .cke_contents .bck-ol-6 li,
+  #actividad .content .texto_curso .bck-ol-6 li,
+  #actividad .popover-content .bck-ol-6 li,
+  #actividad .content .workspace ul li .bck-ol-6 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
     margin-left: 0px;
-    margin-top: 10px;
-}
+  }
 
-#actividad .content .cke_contents .bck-ol-7 li:before, 
-#actividad .content .texto_curso .bck-ol-7 li:before, 
-#actividad .popover-content .bck-ol-7 li:before, 
-#actividad .content .workspace ul li .bck-ol-7  li:before{
-    content: counter(bck-li-counter);
+  #actividad .content .cke_contents ol.bck-ol-6 li:before,
+  #actividad .content .texto_curso ol.bck-ol-6 li:before,
+  #actividad .popover-content ol.bck-ol-6 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-6 li:before {
+    content: counter(bck-li-counter, lower-alpha)".";
+      position: absolute;
+      text-align: center;
+      color: #000000;
+      margin-left: -20px;
+      line-height: unset;
+      font-weight: bold;
+      margin-top: 0px;
+      font-family: 'HelveticaNeueLTStd-Lt';
+  }
+
+  /*lista 7 - numCirculo*/
+  #actividad .content .cke_contents .bck-ol-7,
+  #actividad .content .texto_curso .bck-ol-7,
+  #actividad .content .workspace ul li .bck-ol-7,
+  #actividad .popover-content .bck-ol-7 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+    margin-left: -10px;
+  }
+
+  #actividad .content .cke_contents .bck-ol-7 li, 
+  #actividad .content .cke_contents .bck-ol-7 li, 
+  #actividad .content .texto_curso .bck-ol-7 li, 
+  #actividad .popover-content .bck-ol-7 li, 
+  #actividad .content .workspace ul li .bck-ol-7 li{
+    counter-increment: bck-li-counter;
+      padding-left: 0px;
+      position: relative;
+      z-index: 0;
+      font-weight: 500;
+      margin-left: 0px;
+      margin-top: 10px;
+  }
+
+  #actividad .content .cke_contents .bck-ol-7 li:before, 
+  #actividad .content .texto_curso .bck-ol-7 li:before, 
+  #actividad .popover-content .bck-ol-7 li:before, 
+  #actividad .content .workspace ul li .bck-ol-7  li:before{
+      content: counter(bck-li-counter);
+      position: absolute;
+      color: #ffffff;
+      background: #009BA7;
+      border-radius: 100%;
+      text-align: center;
+      font-size: 1.6rem;
+      font-weight: normal;
+      width: 25px;
+      height: 25px;
+      margin-left: -35px;
+      margin-top: 5px;
+      line-height: initial;
+      text-align: center;
+      padding: 3px;
+  }
+
+  /*LISTA 8 = Lista 123 Verde*/
+  #actividad .content .cke_contents .bck-ol-8,
+  #actividad .content .texto_curso .bck-ol-8,
+  #actividad .content .workspace ul li .bck-ol-8,
+  #actividad .popover-content .bck-ol-8 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+  }
+
+  #actividad .content .cke_contents .bck-ol-8 li,
+  #actividad .content .cke_contents .bck-ol-8 li,
+  #actividad .content .texto_curso .bck-ol-8 li,
+  #actividad .popover-content .bck-ol-8 li,
+  #actividad .content .workspace ul li .bck-ol-8 li {
+    counter-increment: bck-li-counter;
+      padding-left: 0px;
+      position: relative;
+      z-index: 0;
+      margin-left: 0px;
+      margin-top: 10px;
+      font-size: 22px;
+      font-weight: bold;
+      font-family: 'HelveticaNeueLTStd-Lt';
+  }
+
+  #actividad .content .cke_contents ol.bck-ol-8 li:before,
+  #actividad .content .texto_curso ol.bck-ol-8 li:before,
+  #actividad .popover-content ol.bck-ol-8 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-8 li:before {
+      content: counter(bck-li-counter)". ";
+      width: 27px;
+      height: 27px;
+      position: absolute;
+      font-size: 2.2rem;
+      font-weight: bold;
+      color: #007149;
+      background: none;
+      margin-left: -35px;
+      margin-right: 0px;
+      text-align: right;
+      font-family: 'HelveticaNeueLTStd-Lt';	
+  }
+
+  /*LISTA 9 = Lista 123 Morada*/
+  #actividad .content .cke_contents .bck-ol-9,
+  #actividad .content .texto_curso .bck-ol-9,
+  #actividad .content .workspace ul li .bck-ol-9,
+  #actividad .popover-content .bck-ol-9 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+  }
+
+  #actividad .content .cke_contents .bck-ol-9 li,
+  #actividad .content .cke_contents .bck-ol-9 li,
+  #actividad .content .texto_curso .bck-ol-9 li,
+  #actividad .popover-content .bck-ol-9 li,
+  #actividad .content .workspace ul li .bck-ol-9 li {
+    counter-increment: bck-li-counter;
+      padding-left: 0px;
+      position: relative;
+      z-index: 0;
+      margin-left: 0px;
+      margin-top: 10px;
+      font-size: 22px;
+      font-weight: bold;
+      font-family: 'HelveticaNeueLTStd-Lt';
+  }
+
+  #actividad .content .cke_contents ol.bck-ol-9 li:before,
+  #actividad .content .texto_curso ol.bck-ol-9 li:before,
+  #actividad .popover-content ol.bck-ol-9 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-9 li:before {
+      content: counter(bck-li-counter)". ";
+      width: 27px;
+      height: 27px;
+      position: absolute;
+      font-size: 2.2rem;
+      font-weight: bold;
+      color: #20409B;
+      background: none;
+      margin-left: -35px;
+      margin-right: 0px;
+      text-align: right;
+      font-family: 'HelveticaNeueLTStd-Lt';	
+  }
+
+  /*LISTA 10  L.abc.Verde*/
+  #actividad .content .cke_contents .bck-ol-10,
+  #actividad .content .texto_curso .bck-ol-10,
+  #actividad .content .workspace ul li .bck-ol-10,
+  #actividad .popover-content .bck-ol-10 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+    margin-left: 20px;
+  }
+
+  #actividad .content .cke_contents .bck-ol-10 li,
+  #actividad .content .cke_contents .bck-ol-10 li,
+  #actividad .content .texto_curso .bck-ol-10 li,
+  #actividad .popover-content .bck-ol-10 li,
+  #actividad .content .workspace ul li .bck-ol-10 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    margin-left: 10px;
+  }
+
+  #actividad .content .cke_contents .bck-ol-10 li:before,
+  #actividad .content .texto_curso ol.bck-ol-10 li:before,
+  #actividad .popover-content ol.bck-ol-10 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-10 li:before {
+    content: counter(bck-li-counter, lower-alpha)".";
     position: absolute;
-    color: #ffffff;
-    background: #009BA7;
-    border-radius: 100%;
     text-align: center;
-    font-size: 1.6rem;
-    font-weight: normal;
-    width: 25px;
-    height: 25px;
-    margin-left: -35px;
-    margin-top: 5px;
-    line-height: initial;
+    color: #007149;
+    line-height: normal;
+    margin-left: -20px;
+    line-height: unset;
+    font-weight: bold;
+    margin-top: 0px;
+    font-family: 'HelveticaNeueLTStd-Lt';
+  }
+
+  /*LISTA 11  L.abc.Mor*/
+  #actividad .content .cke_contents .bck-ol-11,
+  #actividad .content .texto_curso .bck-ol-11,
+  #actividad .content .workspace ul li .bck-ol-11,
+  #actividad .popover-content .bck-ol-11 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+    margin-left: 20px;
+  }
+
+  #actividad .content .cke_contents .bck-ol-11 li,
+  #actividad .content .cke_contents .bck-ol-11 li,
+  #actividad .content .texto_curso .bck-ol-11 li,
+  #actividad .popover-content .bck-ol-11 li,
+  #actividad .content .workspace ul li .bck-ol-11 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    margin-left: 10px;
+  }
+
+  #actividad .content .cke_contents .bck-ol-11 li:before,
+  #actividad .content .texto_curso ol.bck-ol-11 li:before,
+  #actividad .popover-content ol.bck-ol-11 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-11 li:before {
+    content: counter(bck-li-counter, lower-alpha)".";
+    position: absolute;
     text-align: center;
-    padding: 3px;
-}
+    color: #20409B;
+    line-height: normal;
+    margin-left: -20px;
+    line-height: unset;
+    font-weight: bold;
+    margin-top: 0px;
+    font-family: 'HelveticaNeueLTStd-Lt';
+  }
 
+  /*LISTA 12  L.abc.Roj*/
+  #actividad .content .cke_contents .bck-ol-11,
+  #actividad .content .texto_curso .bck-ol-11,
+  #actividad .content .workspace ul li .bck-ol-11,
+  #actividad .popover-content .bck-ol-11 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+    margin-left: 20px;
+  }
 
+  #actividad .content .cke_contents .bck-ol-11 li,
+  #actividad .content .cke_contents .bck-ol-11 li,
+  #actividad .content .texto_curso .bck-ol-11 li,
+  #actividad .popover-content .bck-ol-11 li,
+  #actividad .content .workspace ul li .bck-ol-11 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    margin-left: 10px;
+  }
+
+  #actividad .content .cke_contents .bck-ol-11 li:before,
+  #actividad .content .texto_curso ol.bck-ol-11 li:before,
+  #actividad .popover-content ol.bck-ol-11 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-11 li:before {
+    content: counter(bck-li-counter, lower-alpha)".";
+    position: absolute;
+    text-align: center;
+    color: #EF2C3E;
+    line-height: normal;
+    margin-left: -20px;
+    line-height: unset;
+    font-weight: bold;
+    margin-top: 0px;
+    font-family: 'HelveticaNeueLTStd-Lt';
+  }
 /**/
 
 /*BOXES*/
@@ -1511,7 +1617,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
   }
 
 
-  /*CAJA 9 - CAJA Azul*/
+  /*CAJA 9 - CAJA Azul sombra*/
   .bck-box.bck-box-9 {
     padding: 8px 15px 8px 8px;
     background-color: #D9EBEE;
@@ -1520,7 +1626,13 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     box-shadow: 9px 10px 9px #00000024;
   }
   .bck-box-9 .bck-title {
-  color: inherit;
+    color: #E61931;
+    font-family: 'Billy';
+    font-weight: bold;
+  }
+  .bck-box-9 .bck-title p {
+    font-family: 'Billy';
+    font-weight: bold;
   }
 
 
@@ -1545,17 +1657,17 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
   }
 
   /* CAJA 11 - CAJA DIAG.DER*/
-
   .bck-box-11:before {
     content: "";
     position: absolute;
     width: 0px;
     height: 0px;
     border-top: 15px solid #D9EBEE;
-    border-right: 20px solid transparent;
-    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-left: 20px solid transparent;
     right: 0;
     margin: 0 40px 0px 0px;
+    bottom: -15px;
   }
   .bck-box-11 {
   background: #D9EBEE;
@@ -1564,163 +1676,216 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
   position: relative;
   }  
 
+  /* CAJA 12 - Bocadillo INFO*/
+  .bck-box-12 {
+     background: #e6e782;
+    padding: 8px 15px 8px 8px;
+    position: relative;
+    -moz-box-shadow: 2px 4px 10px 0px #0000002e;
+    -webkit-box-shadow: 2px 4px 10px 0px #0000002e;
+    box-shadow: 2px 4px 10px 0px #0000002e;
+    width: fit-content;
+    width: -moz-fit-content;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+  }
+  .bck-box-12:before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 31px solid #e6e782;
+    border-right: 0px solid #3c1515;
+    border-left: 20px solid #ffffff00;
+    bottom: 9px;
+    right: -25px;
+    margin: 0 0 0 40px;
+    -webkit-transform: rotatez(269deg);
+    -moz-transform: rotatez(269deg);
+    -ms-transform: rotatez(269deg);
+    -o-transform: rotatez(269deg);
+    transform: rotatez(269deg);
+}
+
+/*CAJA 13 - AZUL BÁSICA */
+
+.bck-box.bck-box- {
+   padding: 8px 15px 8px 8px;
+  background-color: #D9EBEE;
+  }
+.bck-box-13 .bck-title {
+  color: #E61931;
+  font-family: 'Billy';
+  font-weight: bold;
+  }
+.bck-box-13 .bck-title p {
+  font-family: 'Billy';
+  font-weight: bold;
+}
+
+/*CAJA 14 - Blanca BÁSICA */
+.bck-box.bck-box-14 {
+  padding: 8px 15px 8px 8px;
+ background-color: white;
+ }
+.bck-box-14 .bck-title {
+ color: #E61931;
+ font-family: 'Billy';
+ font-weight: bold;
+ }
+.bck-box-14 .bck-title p {
+ font-family: 'Billy';
+ font-weight: bold;
+}
 
 /*-----------*/
 
 
 /*CAJA POP-UP*/
+#actividad .info-button {
+  background: #0F99A8;
+  color: white; 
+}
+
+.fa-times:before {
+  content: "\f00d";
+  color: white;
+}
 
 .info-popover .popover-title:before, .popover-template .popover-title:before {
-  color: #728fa6;
+  color: white;
 }
 
 .info-popover .popover-title, .popover-template .popover-title {
-  background: #728fa6;
+  background: #0F99A8;
+  color: white;;
+}
+.info-template.shown {
+  background: white;
 }
 
-.info-template .info-title {
-  color: #728fa6;
-}
-
-.info-template .info-title.shown:before {
-  color: #728fa6;
+.info-template .info-icon {
+  color: #0f99a8;
 }
 
 /**/
 
 /*-------------- Iconos---------------------*/
 
-/*icono Hablar*/
-.icon-hablar:before {
-  background-image: url(images/icono_hablar.png);
-  content: "";
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  background-position: center center;
-  display: inline-block;
-  vertical-align: middle;
-  height: 18px;
-  width: 30px;
-  margin-right: 10px;
-  position: relative;
-  top: -4px;
-}
-
-/*icono audio*/
-.icon-audio:before {
-  background-image: url(images/icono_audio.png);
-  content: "";
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  background-position: center center;
-  display: inline-block;
-  vertical-align: middle;
-  height: 20px;
-    width: 31px;
-    margin-right: 5px;
+  /*icono Hablar*/
+  .icon-hablar:before {
+    background-image: url(images/icono_hablar.png);
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+    height: 18px;
+    width: 30px;
+    margin-right: 10px;
     position: relative;
-    top: -5px;
-}
+    top: -4px;
+  }
 
-/*icono libro*/
-.icon-libro:before {
-  background-image: url(images/icono_libro.png);
-  content: "";
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  background-position: center center;
-  display: inline-block;
-  vertical-align: middle;
-  height: 19px;
-  width: 17px;
-  margin-right: 9px;
-  position: relative;
-  top: -5px;
-}
-/*icono cuidado*/
-.icon-cuidado:before {
-  background-image: url(images/icono_cuidado.png);
-  content: "";
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  background-position: center center;
-  display: inline-block;
-  vertical-align: middle;
-    height: 32px;
-    width: 27px;
+  /*icono audio*/
+  .icon-audio:before {
+    background-image: url(images/icono_audio.png);
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+      width: 31px;
+      margin-right: 5px;
+      position: relative;
+      top: -5px;
+  }
+
+  /*icono libro*/
+  .icon-libro:before {
+    background-image: url(images/icono_libro.png);
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+    height: 19px;
+    width: 17px;
     margin-right: 9px;
     position: relative;
-    top: 1px;
-}
-
-/*icono lápizRojo*/
-.icon-lapizrojo:before {
-  background-image: url(images/icono_lapizRojo.png);
-  content: "";
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  background-position: center center;
-  display: inline-block;
-  vertical-align: middle;
-  height: 19px;
-  width: 17px;
-  margin-right: 9px;
-}
-
-/*icono Colores*/
-.icon-colores:before {
-  background-image: url(images/icono_colores.png);
-  content: "";
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  background-position: center center;
-  display: inline-block;
-  vertical-align: middle;
-  height: 19px;
-  width: 17px;
-  margin-right: 9px;
-}
-
-/*--- ESTOS DOS ICONOS SE USARON EN LA DEMO. NO BORRAR ---*/
-    /*icono libroazul*/
-    .icon-libroazul:before {
-      background-image: url(images/icono_libroazul.png);
-      content: "";
-      background-repeat: no-repeat;
-      -webkit-background-size: contain;
-      -moz-background-size: contain;
-      -o-background-size: contain;
-      background-size: contain;
-      background-position: center center;
-      display: inline-block;
-      vertical-align: middle;
-      height: 19px;
-      width: 17px;
+    top: -5px;
+  }
+  /*icono cuidado*/
+  .icon-cuidado:before {
+    background-image: url(images/icono_cuidado.png);
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+      height: 32px;
+      width: 27px;
       margin-right: 9px;
       position: relative;
-      top: -1px;
-    }
-    /*icono lápizAzul*/
-    .icon-lapizazul:before {
-        background-image: url(images/icono_lapizAzul.png);
+      top: 1px;
+  }
+
+  /*icono lápizRojo*/
+  .icon-lapizrojo:before {
+    background-image: url(images/icono_lapizRojo.png);
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+    height: 19px;
+    width: 17px;
+    margin-right: 9px;
+  }
+
+  /*icono Colores*/
+  .icon-colores:before {
+    background-image: url(images/icono_colores.png);
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+    margin-right: 9px;
+  }
+
+  /*--- ESTOS DOS ICONOS SE USARON EN LA DEMO. NO BORRAR ---*/
+      /*icono libroazul*/
+      .icon-libroazul:before {
+        background-image: url(images/icono_libroazul.png);
         content: "";
         background-repeat: no-repeat;
         -webkit-background-size: contain;
@@ -1733,26 +1898,44 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
         height: 19px;
         width: 17px;
         margin-right: 9px;
-    }
-/*-------------*/
+        position: relative;
+        top: -1px;
+      }
+      /*icono lápizAzul*/
+      .icon-lapizazul:before {
+          background-image: url(images/icono_lapizAzul.png);
+          content: "";
+          background-repeat: no-repeat;
+          -webkit-background-size: contain;
+          -moz-background-size: contain;
+          -o-background-size: contain;
+          background-size: contain;
+          background-position: center center;
+          display: inline-block;
+          vertical-align: middle;
+          height: 19px;
+          width: 17px;
+          margin-right: 9px;
+      }
+  /*-------------*/
 
 
 
-/**Iconos anterioresÂ¿?**/
+  /**Iconos anterioresÂ¿?**/
 
-.item-container .icon:before {
-  content: "";
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: contain;
-  background-position: center center;
-  display: inline-block;
-  vertical-align: inherit;
-  /*height: 28px;
-  width: 30px;*/
-}
+  .item-container .icon:before {
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: inherit;
+    /*height: 28px;
+    width: 30px;*/
+  }
 
 /**TABLA y Celdas**/
 table td,
@@ -1821,6 +2004,8 @@ table td.bck-td-4 {
 
 /**/
 
+/*--------- ACTIVIDADES ----------*/
+
 .shortanswer-container textarea:focus, 
 .shortanswer-container input:focus, 
 .shortanswer-container .preview:focus {
@@ -1829,6 +2014,55 @@ table td.bck-td-4 {
 box-shadow: 0 0 2px #009FA5;
 border-color: #009FA5;
 }
+
+/*Rellenar espacios*/
+.fillblanks-draggable-wrapper .response {
+  border: 2px solid #009ba7;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  background-color: #cee4e8;
+}
+
+/*Relacionar palabras*/
+#actividad .workspace.matching .opcion {
+  border: 2px solid #0F99A8;
+}
+#actividad .workspace.matching .opcion:hover {
+  background: #e0f7ff9e;
+}
+#actividad .respuesta_over .box {
+  background-color: transparent;
+}
+#actividad .respuesta_checked .box {
+  background-color: transparent;
+}
+
+/*Classify activities*/
+#actividad .workspace.clasificar .clasificar_lista .classify-item {
+  border-color: #0F99A8;
+  padding: 6px;
+}
+
+#actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+  border: 3px solid #0f99a880;
+}
+
+/*Redacción*/
+.form-control:focus, .form-control:focus-within {
+  border-top-color: #0F99A8;
+  border-right-color: #0F99A8;
+  border-bottom-color: #0F99A8;
+  border-left-color: #0F99A8;
+  border-width: 2px;
+  outline-width: 0;
+  outline-style: none;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #0F99A8;
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #0F99A8;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #0F99A8;
+}
+
+
 
 .textarea-container {
   width: 100%;
@@ -1839,7 +2073,7 @@ border-color: #009FA5;
 }
 
 #actividad .workspace.multiple-choice .opcion.respuesta_checked {
-  border-color: #0cb9ea;
+  border-color: #009ba7;
   background-color: #e8e8e800;
 }
 
