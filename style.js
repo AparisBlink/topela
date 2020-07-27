@@ -73,10 +73,9 @@
 				{ name: 'Icono Hablar', element: 'span', attributes: { 'class': 'icon icon-hablar' } },
 				{ name: 'Icono Audio', element: 'span', attributes: { 'class': 'icon icon-audio' } },
 				{ name: 'Icono Libro', element: 'span', attributes: { 'class': 'icon icon-libro' } },
-				{ name: 'Icono LibroAzul', element: 'span', attributes: { 'class': 'icon icon-libroazul' } },
 				{ name: 'Icono Cuidado', element: 'span', attributes: { 'class': 'icon icon-cuidado' } },
-				{ name: 'Icono LápizAzul', element: 'span', attributes: { 'class': 'icon icon-lapizazul' } },
-				{ name: 'Icono LápizRojo', element: 'span', attributes: { 'class': 'icon icon-lapizrojo' } },
+				{ name: 'Icono Lápiz', element: 'span', attributes: { 'class': 'icon icon-lapizrojo' } },
+				{ name: 'Icono Colores', element: 'span', attributes: { 'class': 'icon icon-colores' } },
 
 				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-1' } },
 				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-2' } },
