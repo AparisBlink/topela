@@ -1640,7 +1640,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 
 /*icono Colores*/
 .icon-colores:before {
-  background-image: url(icono_colores.png);
+  background-image: url(images/icono_colores.png);
   content: "";
   background-repeat: no-repeat;
   -webkit-background-size: contain;
