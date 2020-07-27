@@ -62,6 +62,8 @@
 				{ name: 'Caja Verde', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-5' } },
 				{ name: 'Caja Blanca Rectangulo', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-6' } },
 				{ name: 'Caja Círculo azul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-7' } },
+				{ name: 'Caja Bordes amarillos', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-8' } },
+				{ name: 'Caja Azul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-9' } },
 				{ name: 'Caja PantallaCompleta', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-16' } },
 
 				{ name: 'Tabla Azul', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
