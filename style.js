@@ -64,6 +64,8 @@
 				{ name: 'Caja Círculo azul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-7' } },
 				{ name: 'Caja Bordes amarillos', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-8' } },
 				{ name: 'Caja Azul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-9' } },
+				{ name: 'Caja Diag.Izq', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-10' } },
+				{ name: 'Caja Diag.Der', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-11' } },
 				{ name: 'Caja PantallaCompleta', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-16' } },
 
 				{ name: 'Tabla Azul', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
