@@ -1543,7 +1543,7 @@ color: inherit;
 
 /**/
 
-/*Iconos*/
+/*-------------- Iconos---------------------*/
 
 /*icono Hablar*/
 .icon-hablar:before {
@@ -1562,23 +1562,6 @@ color: inherit;
   margin-right: 10px;
   position: relative;
   top: -4px;
-}
-
-/*icono Focus*/
-.icon-focus:before {
-    background-image: url(images/icono_focus.png);
-    content: "";
-    background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    background-position: center center;
-    display: inline-block;
-    vertical-align: middle;
-    height: 30px;
-    width: 33px;
-    margin-right: 0px;
 }
 
 /*icono audio*/
@@ -1618,26 +1601,6 @@ color: inherit;
   position: relative;
   top: -5px;
 }
-
-/*icono libroazul*/
-.icon-libroazul:before {
-  background-image: url(images/icono_libroazul.png);
-  content: "";
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  background-position: center center;
-  display: inline-block;
-  vertical-align: middle;
-  height: 19px;
-  width: 17px;
-  margin-right: 9px;
-  position: relative;
-  top: -1px;
-}
-
 /*icono cuidado*/
 .icon-cuidado:before {
   background-image: url(images/icono_cuidado.png);
@@ -1657,57 +1620,77 @@ color: inherit;
     top: 1px;
 }
 
-
-/*icono lápiz*/
-.icon-lapiz:before {
-  	background-image: url(images/icono_lapiz.png);
-    content: "";
-    background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    background-position: center center;
-    display: inline-block;
-    vertical-align: middle;
-    height: 30px;
-    width: 33px;
-    margin-right: 3px;
-}
-
-/*icono lápizAzul*/
-.icon-lapizazul:before {
-    background-image: url(images/icono_lapizAzul.png);
-    content: "";
-    background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    background-position: center center;
-    display: inline-block;
-    vertical-align: middle;
-    height: 19px;
-    width: 17px;
-    margin-right: 9px;
-}
-
 /*icono lápizRojo*/
 .icon-lapizrojo:before {
-    background-image: url(images/icono_lapizRojo.png);
-    content: "";
-    background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    background-position: center center;
-    display: inline-block;
-    vertical-align: middle;
-    height: 19px;
-    width: 17px;
-    margin-right: 9px;
+  background-image: url(images/icono_lapizRojo.png);
+  content: "";
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-position: center center;
+  display: inline-block;
+  vertical-align: middle;
+  height: 19px;
+  width: 17px;
+  margin-right: 9px;
 }
+
+/*icono Colores*/
+.icon-colores:before {
+  background-image: url(icono_colores.png);
+  content: "";
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-position: center center;
+  display: inline-block;
+  vertical-align: middle;
+  height: 19px;
+  width: 17px;
+  margin-right: 9px;
+}
+
+/*--- ESTOS DOS ICONOS SE USARON EN LA DEMO. NO BORRAR ---*/
+    /*icono libroazul*/
+    .icon-libroazul:before {
+      background-image: url(images/icono_libroazul.png);
+      content: "";
+      background-repeat: no-repeat;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      background-position: center center;
+      display: inline-block;
+      vertical-align: middle;
+      height: 19px;
+      width: 17px;
+      margin-right: 9px;
+      position: relative;
+      top: -1px;
+    }
+    /*icono lápizAzul*/
+    .icon-lapizazul:before {
+        background-image: url(images/icono_lapizAzul.png);
+        content: "";
+        background-repeat: no-repeat;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+        background-position: center center;
+        display: inline-block;
+        vertical-align: middle;
+        height: 19px;
+        width: 17px;
+        margin-right: 9px;
+    }
+/*-------------*/
+
 
 
 /**Iconos anterioresÂ¿?**/
@@ -2013,10 +1996,55 @@ border-color: #009FA5;
 /*--------------------------------------------------TAGS--------------------------------------------*/
 /*--------------------------------------------------TAGS--------------------------------------------*/
 /*-----------------------------------Tag Cahier1--------------------------------------------------*/
-.coursetag_topela_cahier #actividad .player.audio {
+.coursetag_topela_cahier #actividad .player.audio,
+.coursetag_topela_cahier .icon-audio:before {
   background-image: url(images/icono_audioazul.png);
   width: 21px;
   margin-right: 10px;
+}
+/*icono libro*/
+.coursetag_topela_cahier .icon-libro:before {
+  background-image: url(images/icono_libroverde.png);
+}
+/*icono lápiz*/
+.coursetag_topela_cahier .icon-lapizrojo:before {
+  background-image: url(icono_lapizverde.png);
+}
+/*-----------------------------------Tag verde--------------------------------------------------*/
+/*icono Hablar*/
+.coursetag_topela_verde .icon-hablar:before {
+  background-image: url(images/icono_hablar_verde.png);
+}
+/*icono audio*/
+.coursetag_topela_verde #actividad .player.audio,
+.coursetag_topela_verde .icon-audio:before {
+  background-image: url(images/icono_audioverde.png);
+}
+/*icono libro*/
+.coursetag_topela_verde .icon-libro:before {
+  background-image: url(images/icono_libroverde.png);
+}
+/*icono lápiz*/
+.coursetag_topela_verde .icon-lapizrojo:before {
+  	background-image: url(icono_lapizverde.png);
+}
+/*-----------------------------------Tag rojo--------------------------------------------------*/
+/*icono Hablar*/
+.coursetag_topela_morado .icon-hablar:before {
+  background-image: url(images/icono_hablar_morado.png);
+}
+/*icono audio*/
+.coursetag_topela_morado #actividad .player.audio,
+.coursetag_topela_morado .icon-audio:before {
+  background-image: url(images/icono_audiomorado.png);
+}
+/*icono libro*/
+.coursetag_topela_morado .icon-libro:before {
+  background-image: url(images/icono_libromorado.png);
+}
+/*icono lápiz*/
+.coursetag_topela_morado .icon-lapizrojo:before {
+  	background-image: url(icono_icono_lapizmorado.png);
 }
 
 /****/
