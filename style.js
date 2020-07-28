@@ -76,10 +76,8 @@
 				{ name: 'Caja PantallaCompleta', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-16' } },
 
 				{ name: 'Tabla Azul', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
-				{ name: 'Tabla 3', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-3'} },
 				
 				{ name: 'Celda Azul', element: 'td', attributes: { 'class': 'bck-td-2'} },
-				{ name: 'Celda 3', element: 'td', attributes: { 'class': 'bck-td-3'} },
 				
 				{ name: 'Icono Hablar', element: 'span', attributes: { 'class': 'icon icon-hablar' } },
 				{ name: 'Icono Audio', element: 'span', attributes: { 'class': 'icon icon-audio' } },
@@ -88,9 +86,8 @@
 				{ name: 'Icono Lápiz', element: 'span', attributes: { 'class': 'icon icon-lapizrojo' } },
 				{ name: 'Icono Colores', element: 'span', attributes: { 'class': 'icon icon-colores' } },
 
-				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-1' } },
-				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-2' } },
-				{ name: 'Desplegable 3', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-3' } }
+				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-1' } }
+
 			]
 		},
 		slidesTitle: {},
