@@ -851,7 +851,7 @@ a:focus {
     position: absolute;
   }
 
-  #actividad .texto_curso li,
+  #actividad .texto_curso ul li,
   #actividad .workspace ul li li,
   #actividad .popover-content ul li {
     position: relative;
@@ -2391,7 +2391,7 @@ body:not(.isTablet).coursetag_topela_cahier #book-index #indice .unit-content .a
 }
 /*icono lápiz*/
 .coursetag_topela_verde .icon-lapizrojo:before {
-  	background-image: url(icono_lapizverde.png);
+  	background-image: url(images/icono_lapizverde.png);
 }
 /*TAG TOC Y DESPLEGABLE*/
 body:not(.isTablet).coursetag_topela_verde #indice .units ul li:not(.disabled) a:hover .title, 
@@ -2491,7 +2491,7 @@ body:not(.isTablet).coursetag_topela_verde #book-index #indice .unit-content .ac
 }
 /*icono lápiz*/
 .coursetag_topela_morado .icon-lapizrojo:before {
-  	background-image: url(icono_icono_lapizmorado.png);
+  	background-image: url(images/icono_icono_lapizmorado.png);
 }
 
 /****/
