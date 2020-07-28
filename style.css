@@ -2369,6 +2369,42 @@ body:not(.isTablet).coursetag_topela_cahier #book-index #indice .unit-content .a
   border-bottom: 2px solid #00767f;
 }
 
+/*CAMBIO DE COLOR CK-EDITOR*/
+.coursetag_topela_cahier .bck-box.bck-box-2 .bck-content {
+  color: #009ba7;
+}
+
+.coursetag_topela_cahier .bck-box-5 .bck-title {
+  color: #009ba7;
+}
+
+.coursetag_topela_cahier .bck-box-6 .bck-title {
+  color: #009ba7;
+}
+
+.coursetag_topela_cahier .bck-box-7 .bck-title {
+  color: #009ba7;
+}
+
+.coursetag_topela_cahier .bck-box-8 .bck-title {
+  color: #009ba7;
+}
+
+.coursetag_topela_cahier .bck-box-9 .bck-title {
+  color: #009ba7;
+}
+.coursetag_topela_cahier .bck-box-12 .bck-title {
+  color: #009ba7;
+}
+
+.coursetag_topela_cahier .bck-box-13 .bck-title {
+  color: #009ba7;
+
+}
+.coursetag_topela_cahier .bck-box-14 .bck-title {
+  color: #009ba7;
+}
+
 /*Enlace*/
 .coursetag_topela_cahier a:hover,
 .coursetag_topela_cahier a:active,
@@ -2468,6 +2504,42 @@ body:not(.isTablet).coursetag_topela_verde #book-index #indice .unit-content .ac
 .coursetag_topela_verde #book-index #indice .unit-content .actividades .item.current {
   border-bottom: 2px solid #007149;
 }
+/*CAMBIO DE COLOR CK-EDITOR*/
+.coursetag_topela_verde .bck-box.bck-box-2 .bck-content {
+  color: #007149;
+}
+
+.coursetag_topela_verde .bck-box-5 .bck-title {
+  color: #007149;
+}
+
+.coursetag_topela_verde .bck-box-6 .bck-title {
+  color: #007149;
+}
+
+.coursetag_topela_verde .bck-box-7 .bck-title {
+  color: #007149;
+}
+
+.coursetag_topela_verde .bck-box-8 .bck-title {
+  color: #007149;
+}
+
+.coursetag_topela_verde .bck-box-9 .bck-title {
+  color: #007149;
+}
+.coursetag_topela_verde .bck-box-12 .bck-title {
+  color: #007149;
+}
+
+.coursetag_topela_verde .bck-box-13 .bck-title {
+  color: #007149;
+
+}
+.coursetag_topela_verde .bck-box-14 .bck-title {
+  color: #007149;
+}
+
 
 /*Enlace*/
 .coursetag_topela_verde a:hover,
@@ -2569,6 +2641,43 @@ body:not(.isTablet).coursetag_topela_morado #book-index #indice .unit-content .a
 .coursetag_topela_morado #book-index #indice .unit-content .actividades .item.current {
   border-bottom: 2px solid #20409B;
 }
+/*CAMBIO DE COLOR CK-EDITOR*/
+.coursetag_topela_morado .bck-box.bck-box-2 .bck-content {
+  color: #20409B;
+}
+
+.coursetag_topela_morado .bck-box-5 .bck-title {
+  color: #20409B;
+}
+
+.coursetag_topela_morado .bck-box-6 .bck-title {
+  color: #20409B;
+}
+
+.coursetag_topela_morado .bck-box-7 .bck-title {
+  color: #20409B;
+}
+
+.coursetag_topela_morado .bck-box-8 .bck-title {
+  color: #20409B;
+}
+
+.coursetag_topela_morado .bck-box-9 .bck-title {
+  color: #20409B;
+}
+.coursetag_topela_morado .bck-box-12 .bck-title {
+  color: #20409B;
+}
+
+.coursetag_topela_morado .bck-box-13 .bck-title {
+  color: #20409B;
+
+}
+.coursetag_topela_morado .bck-box-14 .bck-title {
+  color: #20409B;
+}
+
+
 
 /*Enlace*/
 .coursetag_topela_morado a:hover,
