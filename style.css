@@ -376,6 +376,16 @@
 
 
 /* Actividades */
+/*Tamño de p en algunas slides - Importante*/
+#actividad .pregunta .texto_curso {
+  font-size: 20px;
+}
+.slide.crosswords-puzzle .enunciado {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/*--*/
   #actividad .workspace.test .checkbox-option label.filter-label,
   #actividad .workspace.test .radio-option label.filter-label,
   #actividad .workspace.true-false .checkbox-option label.filter-label,
@@ -427,11 +437,6 @@
     display: none;
   }
 
-  /*crucigrama*/
-  .slide.crosswords-puzzle .enunciado {
-    font-size: 2rem;
-    line-height: 2.5rem;
-  }
 
   .fillblanks-draggable-wrapper .response p {
     position: relative;
