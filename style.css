@@ -219,6 +219,10 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover{
   color: #E61931;
 }
 
+.actividades .btn-primary {
+  background: #E61931;
+}
+
 
 /*INDICE LATERAL*/
 #book-index #indice .units ul li {
@@ -2296,6 +2300,9 @@ body:not(.isTablet).coursetag_topela_cahier #indice .units ul li:not(.disabled) 
   color: #009ba7;
 }
 
+.coursetag_topela_cahier .actividades .btn-primary {
+  background: #009ba7;
+}
 
 /*INDICE LATERAL*/
 .coursetag_topela_cahier #book-index #indice .units ul li {
@@ -2432,6 +2439,9 @@ body:not(.isTablet).coursetag_topela_verde #indice .units ul li:not(.disabled) a
   color: #007149;
 }
 
+.coursetag_topela_verde .actividades .btn-primary {
+  background: #007149;
+}
 
 /*INDICE LATERAL*/
 .coursetag_topela_verde #book-index #indice .units ul li {
@@ -2569,6 +2579,9 @@ body:not(.isTablet).coursetag_topela_morado #indice .units ul li:not(.disabled) 
   color: #20409B;
 }
 
+.coursetag_topela_morado .actividades .btn-primary {
+  background: #20409B;
+}
 
 /*INDICE LATERAL*/
 .coursetag_topela_morado #book-index #indice .units ul li {
