@@ -2332,7 +2332,7 @@ body:not(.isTablet).coursetag_topela_cahier #indice .units ul li:not(.disabled) 
 
 
 /*INDICE LATERAL*/
-#book-index #indice .units ul li {
+.coursetag_topela_cahier #book-index #indice .units ul li {
     border-bottom: dashed 3px #009ba7;
 }
 
