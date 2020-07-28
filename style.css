@@ -944,12 +944,11 @@ a:focus {
       padding-left: 0px;
       position: relative;
       z-index: 0;
-      font-weight: 500;
-      margin-left: -12px;
+      margin-left: 0px;
       margin-top: 10px;
-      font-size: 2rem;
-      font-family: 'Conv_FuturaStd-Medium';
-      line-height: 1.8em!important;
+      font-size: 22px;
+      font-weight: bold;
+      font-family: 'HelveticaNeueLTStd-Lt';
   }
 
   #actividad .content .cke_contents .bck-ol-1 li:before,
