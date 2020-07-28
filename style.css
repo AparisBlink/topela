@@ -229,12 +229,17 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover{
 
 
 /*INDICE LATERAL*/
-body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #book-index #indice .units ul li.active a {
+#book-index #indice .units ul li {
+  border: 0;
+  border-bottom: dashed 3px #E61931;
+}
+body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
+ #book-index #indice .units ul li.active a {
   background: #E61931;
 }
 
 #book-index .col-indice{
-  background: #99d7dc;
+  background: #dc9999;
 }
 
 #book-index .col-main {
@@ -2288,6 +2293,7 @@ border-color: #009FA5;
 .coursetag_topela_cahier .icon-lapizrojo:before {
   background-image: url(icono_lapizverde.png);
 }
+
 /*TOC Y MENÚ LATERAL*/
 body:not(.isTablet).coursetag_topela_cahier #indice .units ul li:not(.disabled) a:hover .title, 
 body:not(.isTablet).coursetag_topela_cahier #indice .units ul li.active:not(.disabled) a .title{
@@ -2326,7 +2332,12 @@ body:not(.isTablet).coursetag_topela_cahier #indice .units ul li:not(.disabled) 
 
 
 /*INDICE LATERAL*/
-body:not(.isTablet).coursetag_topela_cahier #book-index #indice .units ul li:not(.disabled) a:hover, #book-index #indice .units ul li.active a {
+#book-index #indice .units ul li {
+    border-bottom: dashed 3px #009ba7;
+}
+
+body:not(.isTablet).coursetag_topela_cahier #book-index #indice .units ul li:not(.disabled) a:hover,
+.coursetag_topela_cahier #book-index #indice .units ul li.active a {
   background: #009ba7;
 }
 
