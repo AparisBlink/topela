@@ -73,7 +73,6 @@
 				{ name: 'Caja Bocadillo Info', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-12' } },
 				{ name: 'Caja Azul Básica', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-13' } },
 				{ name: 'Caja Blanca Básica', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-14' } },
-				{ name: 'Caja PantallaCompleta', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-16' } },
 
 				{ name: 'Tabla Azul', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
 				
