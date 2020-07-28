@@ -1695,6 +1695,10 @@ a:focus {
     font-family: 'Billy';
     font-weight: bold;
   }
+  .bck-box-12 .bck-title p {
+    font-family: 'Billy';
+    font-weight: bold;
+  }
   .bck-box-12:before {
     content: "";
     position: absolute;
@@ -1769,7 +1773,9 @@ a:focus {
 .info-template.shown {
   background: white;
 }
-
+.info-template .info-title {
+  color: #0f99a8;
+}
 .info-template .info-icon {
   color: #0f99a8;
 }
