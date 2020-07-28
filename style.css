@@ -857,7 +857,7 @@ a:focus {
     position: relative;
     margin-bottom: 10px;
   }
-  #actividad .texto_curso li:before,
+  #actividad .texto_curso ul li:before,
   #actividad .workspace ul li li:before,
   #actividad .popover-content ul li:before {
     content: "";
@@ -1640,7 +1640,6 @@ a:focus {
 
 
   /* CAJA 10 - CAJA DIAG.IZQ*/
-
   .bck-box-10:before {
     content: "";
     position: absolute;
@@ -1692,6 +1691,11 @@ a:focus {
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
+  }
+  .bck-box-12 .bck-title {
+    color: #E61931;
+    font-family: 'Billy';
+    font-weight: bold;
   }
   .bck-box-12:before {
     content: "";
