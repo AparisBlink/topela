@@ -148,10 +148,6 @@ p {
   font-weight: 500;
 }
 
-/*justificacción centro*/
-.bck-t-align-center {
-	line-height: 1.7em!important;
-}
 
 
 
@@ -836,11 +832,6 @@ a:focus {
 /*------*/
 
 
-/*Line Height Listas*/
-.texto_curso li {
-  line-height: 1.8em!important;
-}
-
 /*--------------- LISTAS DESORDENADAS -------------------*/
   .texto_curso ul li,
   .popover-template .popover-content ul li {
@@ -857,9 +848,13 @@ a:focus {
     position: relative;
     margin-bottom: 10px;
   }
-  #actividad .texto_curso ul li:before,
-  #actividad .workspace ul li li:before,
-  #actividad .popover-content ul li:before {
+  .foro_wiki_cke_text ul li:before,
+   .texto_curso ul li:before,
+    .workspace:not(.test) ul li ul li:before,
+     .cke_contents ul li:before,
+      .preview ul li:before,
+       .classify-item ul li:before,
+   .popover-template .popover-content ul li:before {
     content: "";
     height: 8px;
     width: 8px;
@@ -870,6 +865,10 @@ a:focus {
     border-radius: 100%;
     margin-top: 15px;
     margin-left: -15px;
+  }
+
+  .workspace ul li ul li:before{
+    margin-top:7px !important;
   }
 
   /*Lista Desordenada 1 - Azul*/
