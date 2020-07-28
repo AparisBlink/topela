@@ -159,17 +159,17 @@ p {
 /*TOC*/
 body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, 
 body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
-  color: #009ba7;
+  color: #E61931;
 }
 
 body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
-    color: #009ba7;
+    color: #E61931;
 }
 
 #indice .units ul li.active:not(.disabled),
 #indice .units ul li:focus:not(.disabled) {
   background: #D9EBEE;
-  border: dashed 3px #009BA7;	
+  border: dashed 3px #E61931;	
   padding: 5px 0;
 }
 #indice .units ul li {
@@ -178,7 +178,9 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
           border-radius: 4px;
   -webkit-box-shadow: 1px 1px 1px 1px #C2C2C2;
   box-shadow: 1px 1px 1px 1px #C2C2C2;
-  background: #009BA7;
+  background: #E61931;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
 
@@ -192,7 +194,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 }            
 
 #indice .unit-content .header .title {
-    color: #009ba7;
+    color: #E61931;
     background: #ffffff85;
     font-size: 2.7rem;
     font-weight: bold;
@@ -211,9 +213,24 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
     text-overflow: ellipsis;
 }
 
+#indice .units ul li.hover:not(.disabled),
+body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
+#indice .units ul li:hover:not(.disabled) {
+  background: #D9EBEE;
+  border: dashed 3px #E61931;
+  padding: 5px 0
+}
+
+
+
+body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover{
+  color: #E61931;
+}
+
+
 /*INDICE LATERAL*/
 body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #book-index #indice .units ul li.active a {
-  background: #009ba7;
+  background: #E61931;
 }
 
 #book-index .col-indice{
@@ -221,23 +238,13 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #bo
 }
 
 #book-index .col-main {
-      background: #009ba7;
+      background: #E61931;
 }
 
 #indice .unit-content .actividades .item .nota {
-      background-color: #428bca;
+      background-color: #E61931;
 }
 
-body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover{
-  color: #009ba7;
-}
-
-#indice .units ul li.hover:not(.disabled),
-body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
-#indice .units ul li:hover:not(.disabled) {
-  background: #D9EBEE;
-  border: dashed 3px #009BA7;
-}
 
 #book-index #indice .unit-content a:active,
 #indice .units ul li a:active,
@@ -248,32 +255,18 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 
 #book-index #indice .unit-content a:hover,
 #indice .units ul li a:hover{
-  color: #009BA7;
-}
-
-#indice .actividades a:hover,
-#indice .actividades a:active,
-#indice .actividades a:focus {
-	color: #009ba7;
+  color: #E61931;
 }
 
 #book-index #indice .unit-content .actividades .item {
   background: transparent;
 }
 
-body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
-#book-index #indice .unit-content .actividades .item.active,
-#book-index #indice .unit-content .actividades .item.current {
-  background: transparent;
-  border-bottom: px solid #00767f;
-  padding-left: 10px;
-}
-
 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 #book-index #indice .unit-content .actividades .item.active,
 #book-index #indice .unit-content .actividades .item.current {
   background: transparent;
-  border-bottom: 2px solid #00767f;
+  border-bottom: 2px solid #E61931;
   padding-left: 10px;
 }
 
@@ -604,7 +597,13 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 /*------*/
 
 /*------------------- ESTILOS CK EDITOR ---------------------*/
+/*Enlace*/
 
+a:hover,
+a:active,
+a:focus {
+	color: #E61931;
+}
 /*Títulos Intro, Intro Rojo, Intro verde, Intro morado*/
   .bck-title-intro,
   .bck-title-2,
@@ -2288,6 +2287,83 @@ border-color: #009FA5;
 /*icono lápiz*/
 .coursetag_topela_cahier .icon-lapizrojo:before {
   background-image: url(icono_lapizverde.png);
+}
+/*TOC Y MENÚ LATERAL*/
+body:not(.isTablet).coursetag_topela_cahier #indice .units ul li:not(.disabled) a:hover .title, 
+body:not(.isTablet).coursetag_topela_cahier #indice .units ul li.active:not(.disabled) a .title{
+  color: #009ba7;
+}
+
+body:not(.isTablet).coursetag_topela_cahier #indice .units ul li.active:not(.disabled) a .title {
+    color: #009ba7;
+}
+
+.coursetag_topela_cahier #indice .units ul li.active:not(.disabled),
+.coursetag_topela_cahier #indice .units ul li:focus:not(.disabled) {
+  background: #D9EBEE;
+  border: dashed 3px #009BA7;	
+}
+.coursetag_topela_cahier #indice .units ul li {
+  background: #009BA7;
+}
+.coursetag_topela_cahier #indice .units ul li a .title{
+    color: #ffff;
+  }
+.coursetag_topela_cahier #indice .unit-content .header .title {
+    color: #009ba7;
+}
+
+.coursetag_topela_cahier #indice .units ul li.hover:not(.disabled),
+body:not(.isTablet).coursetag_topela_cahier #indice .units ul li:hover:not(.disabled),
+.coursetag_topela_cahier #indice .units ul li:hover:not(.disabled) {
+  background: #D9EBEE;
+  border: dashed 3px #009BA7;
+}
+
+body:not(.isTablet).coursetag_topela_cahier #indice .units ul li:not(.disabled) a .title:hover{
+  color: #009ba7;
+}
+
+
+/*INDICE LATERAL*/
+body:not(.isTablet).coursetag_topela_cahier #book-index #indice .units ul li:not(.disabled) a:hover, #book-index #indice .units ul li.active a {
+  background: #009ba7;
+}
+
+.coursetag_topela_cahier #book-index .col-indice{
+  background: #99d7dc;
+}
+
+.coursetag_topela_cahier #book-index .col-main {
+      background: #009ba7;
+}
+
+.coursetag_topela_cahier #indice .unit-content .actividades .item .nota {
+      background-color: #428bca;
+}
+
+.coursetag_topela_cahier #book-index #indice .unit-content a:active,
+.coursetag_topela_cahier #indice .units ul li a:active,
+.coursetag_topela_cahier #book-index #indice .unit-content a:focus,
+.coursetag_topela_cahier #indice .units ul li a:focus {
+  color: #fff;
+}
+.coursetag_topela_cahier #book-index #indice .unit-content a:hover,
+.coursetag_topela_cahier #indice .units ul li a:hover{
+  color: #009BA7;
+}
+
+body:not(.isTablet).coursetag_topela_cahier #book-index #indice .unit-content .actividades .item:active,
+.coursetag_topela_cahier #book-index #indice .unit-content .actividades .item.active,
+.coursetag_topela_cahier #book-index #indice .unit-content .actividades .item.current {
+  border-bottom: 2px solid #00767f;
+}
+
+/*Enlace*/
+.coursetag_topela_cahier a:hover,
+.coursetag_topela_cahier a:active,
+.coursetag_topela_cahier a:focus {
+	color: #009ba7;
 }
 /*-----------------------------------Tag verde--------------------------------------------------*/
 /*icono Hablar*/
