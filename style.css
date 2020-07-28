@@ -725,7 +725,7 @@ a:focus {
 
 /*Énfasis 8 - 11 Boc.Izq*/ 
 .bck-enfasis-8:before,
-.bck-enfasis-:before,
+.bck-enfasis-9:before,
 .bck-enfasis-10:before,
 .bck-enfasis-11:before {
   content: "";
@@ -739,7 +739,7 @@ a:focus {
   margin: 0 0 0 40px;
 }
 .bck-enfasis-8,
-.bck-enfasis-,
+.bck-enfasis-9,
 .bck-enfasis-10,
 .bck-enfasis-11 {
   border-bottom: 2px solid #0F99A8;
