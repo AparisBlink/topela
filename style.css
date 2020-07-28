@@ -168,7 +168,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 
 #indice .units ul li.active:not(.disabled),
 #indice .units ul li:focus:not(.disabled) {
-  background: #D9EBEE;
+  background: #e619310d;
   border: dashed 3px #E61931;	
   padding: 5px 0;
 }
@@ -187,11 +187,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 #indice .units ul li a .title{
   color: #ffff;
 }
-
-#indice .unit-content {
-  -webkit-box-shadow: 1px 1px 1px 1px #C2C2C2;
-          box-shadow: 1px 1px 1px 1px #C2C2C2;
-}            
+         
 
 #indice .unit-content .header .title {
     color: #E61931;
@@ -216,7 +212,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 #indice .units ul li.hover:not(.disabled),
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #indice .units ul li:hover:not(.disabled) {
-  background: #D9EBEE;
+  background: #e619310d;
   border: dashed 3px #E61931;
   padding: 5px 0
 }
@@ -232,6 +228,9 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover{
 #book-index #indice .units ul li {
   border: 0;
   border-bottom: dashed 3px #E61931;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
  #book-index #indice .units ul li.active a {
@@ -2394,7 +2393,89 @@ body:not(.isTablet).coursetag_topela_cahier #book-index #indice .unit-content .a
 .coursetag_topela_verde .icon-lapizrojo:before {
   	background-image: url(icono_lapizverde.png);
 }
-/*-----------------------------------Tag rojo--------------------------------------------------*/
+/*TAG TOC Y DESPLEGABLE*/
+body:not(.isTablet).coursetag_topela_verde #indice .units ul li:not(.disabled) a:hover .title, 
+body:not(.isTablet).coursetag_topela_verde #indice .units ul li.active:not(.disabled) a .title{
+  color: #007149;
+}
+
+body:not(.isTablet).coursetag_topela_verde #indice .units ul li.active:not(.disabled) a .title {
+    color: #007149;
+}
+
+.coursetag_topela_verde #indice .units ul li.active:not(.disabled),
+.coursetag_topela_verde #indice .units ul li:focus:not(.disabled) {
+  background: #00714914;
+  border: dashed 3px #007149;	
+}
+.coursetag_topela_verde #indice .units ul li {
+  background: #007149;
+}
+.coursetag_topela_verde #indice .units ul li a .title{
+    color: #ffff;
+  }
+.coursetag_topela_verde #indice .unit-content .header .title {
+    color: #007149;
+}
+
+.coursetag_topela_verde #indice .units ul li.hover:not(.disabled),
+body:not(.isTablet).coursetag_topela_verde #indice .units ul li:hover:not(.disabled),
+.coursetag_topela_verde #indice .units ul li:hover:not(.disabled) {
+  background: #00714914;
+  border: dashed 3px #007149;
+}
+
+body:not(.isTablet).coursetag_topela_verde #indice .units ul li:not(.disabled) a .title:hover{
+  color: #007149;
+}
+
+
+/*INDICE LATERAL*/
+.coursetag_topela_verde #book-index #indice .units ul li {
+    border-bottom: dashed 3px #007149;
+}
+
+body:not(.isTablet).coursetag_topela_verde #book-index #indice .units ul li:not(.disabled) a:hover,
+.coursetag_topela_verde #book-index #indice .units ul li.active a {
+  background: #007149;
+}
+
+.coursetag_topela_verde #book-index .col-indice{
+  background: #37b186;
+}
+
+.coursetag_topela_verde #book-index .col-main {
+      background: #007149;
+}
+
+.coursetag_topela_verde #indice .unit-content .actividades .item .nota {
+      background-color: #007149;
+}
+
+.coursetag_topela_verde #book-index #indice .unit-content a:active,
+.coursetag_topela_verde #indice .units ul li a:active,
+.coursetag_topela_verde #book-index #indice .unit-content a:focus,
+.coursetag_topela_verde #indice .units ul li a:focus {
+  color: #fff;
+}
+.coursetag_topela_verde #book-index #indice .unit-content a:hover,
+.coursetag_topela_verde #indice .units ul li a:hover{
+  color: #007149;
+}
+
+body:not(.isTablet).coursetag_topela_verde #book-index #indice .unit-content .actividades .item:active,
+.coursetag_topela_verde #book-index #indice .unit-content .actividades .item.active,
+.coursetag_topela_verde #book-index #indice .unit-content .actividades .item.current {
+  border-bottom: 2px solid #007149;
+}
+
+/*Enlace*/
+.coursetag_topela_verde a:hover,
+.coursetag_topela_verde a:active,
+.coursetag_topela_verde a:focus {
+	color: #007149;
+}
+/*-----------------------------------Tag MORADO--------------------------------------------------*/
 /*icono Hablar*/
 .coursetag_topela_morado .icon-hablar:before {
   background-image: url(images/icono_hablar_morado.png);
